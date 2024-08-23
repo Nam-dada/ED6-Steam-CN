@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -368,6 +368,7 @@ def func_02_226():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_334(): pass
 
     label('loc_334')
@@ -920,8 +921,8 @@ def func_04_445():
             '倒是没遗失的样子……',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0120191182V<FIXME>訓練の時に使っていた\n',
-            '武具を取られちゃったみたい。',
+            '#0120191182V训练使用的武器和防具\n',
+            '似乎全部被拿走了。',
             TxtCtl.Enter,
         ),
     )
@@ -958,8 +959,8 @@ def func_04_445():
             '倒是没遗失的样子……',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0120191187V<FIXME>昨日の夜に、身に付けていた\n',
-            '武具は全部取られちゃったみたい。',
+            '#0120191187V昨天晚上装备在身上的武器和防具\n',
+            '似乎全都被拿走了。',
             TxtCtl.Enter,
         ),
     )
@@ -1274,11 +1275,11 @@ def func_04_445():
     ChrTalk(
         0x010A,
         (
-            '#0120191214V#810F#4P<FIXME>それじゃあ、出発しようか。',
+            '#0120191214V#810F#4P那么，我们出发吧。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0120191215V敵が近くにいるかもしれないし、\n',
-            '慎重に行動した方がいいね。',
+            '#0120191215V敌人说不定就在这附近，\n',
+            '我们还是慎重点比较好呢。',
             TxtCtl.Enter,
         ),
     )
@@ -1304,11 +1305,11 @@ def func_04_445():
     ChrTalk(
         0x010A,
         (
-            '#0120191214V#810F#4P<FIXME>それじゃあ、出発しようか。',
+            '#0120191214V#810F#4P那么，我们出发吧。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0120191218V丸腰に近い状態だから\n',
-            '慎重に行動した方がいいね。',
+            '#0120191218V因为现状相当于手无寸铁\n',
+            '我们还是慎重点比较好呢。',
             TxtCtl.Enter,
         ),
     )
