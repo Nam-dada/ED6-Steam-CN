@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -2249,7 +2249,7 @@ def func_04_555():
             '就绝不可能割断。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0160340148V既使相隔千里，或是立场相悖，\n',
+            '#0160340148V即使相隔千里，或是立场相悖，\n',
             '也都会以某种形式永存在我们的心中……',
             TxtCtl.Enter,
             TxtCtl.Clear,

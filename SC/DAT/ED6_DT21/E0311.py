@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -2328,6 +2328,7 @@ def func_05_E89():
     label('loc_102D')
 
     Call(0, 0x0022)
+
     def _loc_1031(): pass
 
     label('loc_1031')
@@ -6269,8 +6270,8 @@ def func_10_63CF():
             '#0100390211V#176F#5P是啊……',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100390212V<FIXME>私も探索に加わりたいところだが、\n',
-            '今はアルセイユの修理が急務だ。',
+            '#0100390212V我也很想加入探索的行列，不过\n',
+            '当务之急是修理埃尔赛尤。',
             TxtCtl.Enter,
             TxtCtl.Clear,
             '#0100390213V#178F我们尽快来商量一下\n',
@@ -8090,6 +8091,7 @@ def func_10_63CF():
     )
 
     CloseMessageWindow()
+
     def _loc_8724(): pass
 
     label('loc_8724')
@@ -8313,6 +8315,7 @@ def func_10_63CF():
     ChrSetPos(0x00F9, -2400, 200, -47940, 180)
     ChrClearFlags(0x00F8, 0x0080)
     ChrClearFlags(0x00F9, 0x0080)
+
     def _loc_8956(): pass
 
     label('loc_8956')
@@ -8583,6 +8586,7 @@ def func_10_63CF():
     )
 
     CloseMessageWindow()
+
     def _loc_8DFF(): pass
 
     label('loc_8DFF')

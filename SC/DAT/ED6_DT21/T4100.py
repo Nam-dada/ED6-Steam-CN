@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -4419,6 +4419,7 @@ def func_0E_234F():
     )
 
     CloseMessageWindow()
+
     def _loc_25AD(): pass
 
     label('loc_25AD')
@@ -11583,7 +11584,7 @@ def func_35_8171():
     ChrTalk(
         0x0108,
         (
-            '#0080250470V#070F已经挺玩了。\n',
+            '#0080250470V#070F已经挺晚了。\n',
             '赶紧回协会吧',
             TxtCtl.Enter,
         ),
@@ -11983,6 +11984,7 @@ def func_3C_8B6D():
     )
 
     CloseMessageWindow()
+
     def _loc_8C3E(): pass
 
     label('loc_8C3E')
@@ -12076,6 +12078,7 @@ def func_3C_8B6D():
     )
 
     CloseMessageWindow()
+
     def _loc_8CFD(): pass
 
     label('loc_8CFD')
@@ -12144,6 +12147,7 @@ def func_3C_8B6D():
 
     CloseMessageWindow()
     SetScenaFlags(ScenaFlag(0x0000, 0, 0x0))
+
     def _loc_8D8D(): pass
 
     label('loc_8D8D')
@@ -12294,6 +12298,7 @@ def func_3C_8B6D():
     )
 
     CloseMessageWindow()
+
     def _loc_8EDA(): pass
 
     label('loc_8EDA')
@@ -12393,6 +12398,7 @@ def func_3C_8B6D():
     )
 
     CloseMessageWindow()
+
     def _loc_8FBB(): pass
 
     label('loc_8FBB')

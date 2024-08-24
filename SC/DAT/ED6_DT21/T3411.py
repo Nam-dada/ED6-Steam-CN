@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -3005,6 +3005,7 @@ def func_0E_182A():
 
     CloseMessageWindow()
     FadeIn(300, 0)
+
     def _loc_19B5(): pass
 
     label('loc_19B5')
@@ -5744,8 +5745,8 @@ def func_17_39F7():
     ChrTalk(
         0x0101,
         (
-            '#0010221318V<FIXME>#1000F王都側に用事はないよね。\n',
-            '早く聞き込みを済ませましょ。',
+            '#0010221318V#1000F不需要去王都那边。\n',
+            '快点完成调查吧。',
             TxtCtl.Enter,
         ),
     )
@@ -5793,8 +5794,8 @@ def func_17_39F7():
     ChrTalk(
         0x0106,
         (
-            '#0050221319V<FIXME>#050F王都側に用事はねえ。\n',
-            'さっさと聞き込みを済ませるぞ。',
+            '#0050221319V#050F不需要去王都那边。\n',
+            '快点完成调查吧。',
             TxtCtl.Enter,
         ),
     )
@@ -5834,8 +5835,8 @@ def func_17_39F7():
     ChrTalk(
         0x0103,
         (
-            '#0030221320V<FIXME>#027F王都側に用事はないわ。\n',
-            'さっさと聞き込みを済ませましょ。',
+            '#0030221320V#027F不需要去王都那边。\n',
+            '快点完成调查吧。',
             TxtCtl.Enter,
         ),
     )
@@ -5959,6 +5960,7 @@ def func_17_39F7():
     )
 
     CloseMessageWindow()
+
     def _loc_3C88(): pass
 
     label('loc_3C88')

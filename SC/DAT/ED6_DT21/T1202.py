@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -2902,6 +2902,7 @@ def func_0C_187C():
     )
 
     CloseMessageWindow()
+
     def _loc_1BFE(): pass
 
     label('loc_1BFE')
@@ -4188,7 +4189,7 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>ふ……これも性分でな。',
+            '呵……这也是我的天性呐。',
             TxtCtl.Enter,
         ),
     )
@@ -4225,7 +4226,7 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>ふ……これも性分でな。',
+            '呵……这也是我的天性呐。',
             TxtCtl.Enter,
         ),
     )
@@ -4251,7 +4252,7 @@ def func_0F_222C():
     ChrTalk(
         0x0102,
         (
-            '<FIXME>#1040Fお疲れ様です。',
+            '#1040F您辛苦了。',
             TxtCtl.Enter,
         ),
     )
@@ -4261,7 +4262,7 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>ああ……互いにな。',
+            '啊……彼此彼此。',
             TxtCtl.Enter,
         ),
     )
@@ -4281,8 +4282,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>そうだ、突然で悪いが\n',
-            'お前たち……',
+            '对了，不好意思有点突然，\n',
+            '不过你们……',
             TxtCtl.Enter,
         ),
     )
@@ -4292,7 +4293,7 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>こいつを見てくれないか？',
+            '能不能帮我看一下这东西？',
             TxtCtl.Enter,
         ),
     )
@@ -4302,7 +4303,7 @@ def func_0F_222C():
     ChrTalk(
         0x0101,
         (
-            '<FIXME>#1004Fえ……？',
+            '#1004F咦？',
             TxtCtl.Enter,
         ),
     )
@@ -4313,8 +4314,8 @@ def func_0F_222C():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '<FIXME>スティングから\n',
-            '黒光りする宝玉を見せてもらった。',
+            '斯丁克给他们看了\n',
+            '一个黑的发亮的宝石。',
             TxtCtl.Enter,
         ),
     )
@@ -4327,8 +4328,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>見た所、クオーツの\n',
-            '類だとは思うんだが……',
+            '乍看之下，我觉得是\n',
+            '结晶回路之类的东西……',
             TxtCtl.Enter,
         ),
     )
@@ -4338,8 +4339,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>どうもオーブメントに\n',
-            '嵌められそうになくてな。',
+            '但是好像没办法\n',
+            '嵌进导力器里。',
             TxtCtl.Enter,
         ),
     )
@@ -4349,7 +4350,7 @@ def func_0F_222C():
     ChrTalk(
         0x0101,
         (
-            '<FIXME>#1015Fヨシュア、あれって……',
+            '#1015F约修亚，那是……',
             TxtCtl.Enter,
         ),
     )
@@ -4359,8 +4360,8 @@ def func_0F_222C():
     ChrTalk(
         0x0102,
         (
-            '<FIXME>#1035Fうん、おそらく古代に\n',
-            '使われていたクオーツだろうね。',
+            '#1035F嗯，可能是古代\n',
+            '使用过的结晶回路。',
             TxtCtl.Enter,
         ),
     )
@@ -4373,8 +4374,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>ふむ、話には聞いていたが\n',
-            'こいつがそうなのか……',
+            '嗯，这我也听说过，只是\n',
+            '没想到这玩意就是啊……',
             TxtCtl.Enter,
         ),
     )
@@ -4384,8 +4385,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>確かスロットを強化すれば、\n',
-            '組み込めるという話だったな。',
+            '听说只要强化插槽\n',
+            '就可以组装上去了。',
             TxtCtl.Enter,
         ),
     )
@@ -4395,11 +4396,11 @@ def func_0F_222C():
     ChrTalk(
         0x0101,
         (
-            '<FIXME>#1011Fうん、そうだけど……',
+            '#1011F嗯，是没错啦……',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#1015Fスティングさんは一体\n',
-            'どこでそれを手に入れたの？',
+            '#1015F斯丁克先生是在哪里\n',
+            '拿到这东西的？',
             TxtCtl.Enter,
         ),
     )
@@ -4409,7 +4410,7 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>ああ、実は……',
+            '是的，其实……',
             TxtCtl.Enter,
         ),
     )
@@ -4419,8 +4420,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>琥珀の塔の近くだったか……\n',
-            '何とも変わった魔獣に出会ってな。',
+            '记得是在琥珀之塔附近……\n',
+            '我遇到了一只非常奇怪的魔兽。',
             TxtCtl.Enter,
         ),
     )
@@ -4430,7 +4431,7 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>そいつを倒した時に拾ったんだ。',
+            '我就是在打到那家伙的时候捡到的。',
             TxtCtl.Enter,
         ),
     )
@@ -4440,8 +4441,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>生きた化石というか……\n',
-            'そんな感じの姿をした魔獣だった。',
+            '应该说是活化石吗……？\n',
+            '那只魔兽的模样给我这种感觉。',
             TxtCtl.Enter,
         ),
     )
@@ -4465,7 +4466,7 @@ def func_0F_222C():
     ChrTalk(
         0x0101,
         (
-            '<FIXME>#1004Fそれって、もしかして……',
+            '#1004F那个该不会是……',
             TxtCtl.Enter,
         ),
     )
@@ -4475,8 +4476,8 @@ def func_0F_222C():
     ChrTalk(
         0x0102,
         (
-            '<FIXME>#1042Fうん、塔の屋上で倒した\n',
-            '魔獣と同じ類かもしれない。',
+            '#1042F嗯，或许跟我们在塔顶上\n',
+            '打倒的魔兽是同类。',
             TxtCtl.Enter,
         ),
     )
@@ -4486,8 +4487,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>ほう、お前たちも\n',
-            '遭遇していたか……',
+            '喔，你们也\n',
+            '遇到过吗……',
             TxtCtl.Enter,
         ),
     )
@@ -4539,8 +4540,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>……ともかく、俺の方では\n',
-            'それっきり姿を見ていない。',
+            '……总之，我在那之后\n',
+            '就再也没见过了。',
             TxtCtl.Enter,
         ),
     )
@@ -4550,8 +4551,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>ただ……そこらの魔獣に比べて\n',
-            'かなり強力だったことは確かだ。',
+            '不过……跟一般的魔兽相比，\n',
+            '确实是强了许多。',
             TxtCtl.Enter,
         ),
     )
@@ -4561,8 +4562,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>用心するに\n',
-            '越したことはないだろう。',
+            '小心使得万年船，\n',
+            '千万要提高警觉。',
             TxtCtl.Enter,
         ),
     )
@@ -4572,7 +4573,7 @@ def func_0F_222C():
     ChrTalk(
         0x0101,
         (
-            '<FIXME>#1002Fう、うん……そうね。',
+            '#1002F呃、嗯……说的也是。',
             TxtCtl.Enter,
         ),
     )
@@ -4582,7 +4583,7 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>………………………',
+            '………………………',
             TxtCtl.Enter,
         ),
     )
@@ -4592,9 +4593,9 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>ところで……\n',
-            'お前たちはオーブメントを\n',
-            '使っているように見えるが。',
+            '话说回来……\n',
+            '看样子你们好像\n',
+            '有在使用导力器的样子。',
             TxtCtl.Enter,
         ),
     )
@@ -4604,8 +4605,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>どういうことか、\n',
-            '良ければ教えてくれないか。',
+            '这是怎么一回事？\n',
+            '方便的话可以告诉我吗。',
             TxtCtl.Enter,
         ),
     )
@@ -4615,7 +4616,7 @@ def func_0F_222C():
     ChrTalk(
         0x0101,
         (
-            '<FIXME>#1000Fあ、うん、それは……',
+            '#1000F啊、嗯、那是因为……',
             TxtCtl.Enter,
         ),
     )
@@ -4625,7 +4626,7 @@ def func_0F_222C():
     ChrTalk(
         0x0102,
         (
-            '<FIXME>#1040F説明させていただきます。',
+            '#1040F由我来解释吧。',
             TxtCtl.Enter,
         ),
     )
@@ -4636,8 +4637,8 @@ def func_0F_222C():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '<FIXME>エステルたちは『零力場発生器』のことと\n',
-            '自分たちの当面の任務について説明した。',
+            '艾丝蒂尔一行人说明了『零力场生成器』的事情，\n',
+            '以及他们目前的任务。',
             TxtCtl.Enter,
         ),
     )
@@ -4649,8 +4650,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>……なるほど、\n',
-            'そんなことになっていたのか。',
+            '……原来如此，\n',
+            '事情发展成那样了啊。',
             TxtCtl.Enter,
         ),
     )
@@ -4660,7 +4661,7 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>ふむ……そうだな。',
+            '嗯……我想想。',
             TxtCtl.Enter,
         ),
     )
@@ -4673,9 +4674,11 @@ def func_0F_222C():
 
     Talk(
         (
+            (TxtCtl.SetColor, 0x0),
+            '得到了',
             (TxtCtl.Item, ItemTable['驱动３']),
             (TxtCtl.SetColor, 0x0),
-            'を受け取った。',
+            '。',
             TxtCtl.Enter,
         ),
     )
@@ -4689,7 +4692,7 @@ def func_0F_222C():
     ChrTalk(
         0x0101,
         (
-            '<FIXME>#1004Fえ……？',
+            '#1004F咦……？',
             TxtCtl.Enter,
         ),
     )
@@ -4699,7 +4702,7 @@ def func_0F_222C():
     ChrTalk(
         0x0102,
         (
-            '<FIXME>#1044Fスティングさん？',
+            '#1044F斯丁克先生？',
             TxtCtl.Enter,
         ),
     )
@@ -4709,8 +4712,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>オーブメントの使えない今、\n',
-            'それは俺にとって無用の長物……',
+            '导力器现在无法使用，\n',
+            '所以这对我来说只是个没用的累赘……',
             TxtCtl.Enter,
         ),
     )
@@ -4720,8 +4723,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>だが、お前たちの任務には\n',
-            'オーブメントが役に立つ……',
+            '不过，对你们的任务来说，\n',
+            '导力器派得上用场……',
             TxtCtl.Enter,
         ),
     )
@@ -4731,8 +4734,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>……だったら、\n',
-            '導き出される答えは一つだ。',
+            '……既然如此，\n',
+            '结论只有一个。',
             TxtCtl.Enter,
         ),
     )
@@ -4742,7 +4745,7 @@ def func_0F_222C():
     ChrTalk(
         0x0101,
         (
-            '<FIXME>#1004Fあ……',
+            '#1004F啊……',
             TxtCtl.Enter,
         ),
     )
@@ -4763,8 +4766,8 @@ def func_0F_222C():
     ChrTalk(
         0x0106,
         (
-            '<FIXME>#051Fへっ、随分と\n',
-            '気が利いているじゃねえか。',
+            '#051F嘿，原来\n',
+            '你还蛮贴心的嘛。',
             TxtCtl.Enter,
         ),
     )
@@ -4791,8 +4794,8 @@ def func_0F_222C():
     ChrTalk(
         0x0103,
         (
-            '<FIXME>#027Fふふ、随分と\n',
-            '気が利いているわね。',
+            '#027F呵呵，\n',
+            '你还真是贴心呢。',
             TxtCtl.Enter,
         ),
     )
@@ -4823,7 +4826,7 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>……礼には及ばん。',
+            '……不必谢我。',
             TxtCtl.Enter,
         ),
     )
@@ -4833,8 +4836,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>お前たちは自分の責務を\n',
-            '果たすことだけ考えろ。',
+            '你们只要专心执行\n',
+            '自己的职责就行了。',
             TxtCtl.Enter,
         ),
     )
@@ -4844,8 +4847,8 @@ def func_0F_222C():
     ChrTalk(
         0x0101,
         (
-            '<FIXME>#1006Fうん……！\n',
-            'ありがとう、スティングさん。',
+            '#1006F嗯……！\n',
+            '谢谢你，斯丁克先生。',
             TxtCtl.Enter,
         ),
     )
@@ -4873,8 +4876,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>お前たちは自分の責務を\n',
-            '果たすことだけ考えろ。',
+            '你们只要专心执行\n',
+            '自己的职责就行了。',
             TxtCtl.Enter,
         ),
     )
@@ -4884,8 +4887,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>各人が各人に\n',
-            '出来ることを尽くす……',
+            '每个人都各自\n',
+            '尽自己所能……',
             TxtCtl.Enter,
         ),
     )
@@ -4895,8 +4898,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>そうすれば、この状況にも\n',
-            '活路が見出せるはずだ。',
+            '这样一来，就算是在这种状况下，\n',
+            '一定也能找到活路。',
             TxtCtl.Enter,
         ),
     )
@@ -4913,8 +4916,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>お前たちは自分の責務を\n',
-            '果たすことだけ考えろ。',
+            '你们只要专心执行\n',
+            '自己的职责就行了。',
             TxtCtl.Enter,
         ),
     )
@@ -4924,8 +4927,8 @@ def func_0F_222C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>そうすれば、この状況にも\n',
-            '活路が見出せるはずだ。',
+            '这样一来，就算是在这种状况下，\n',
+            '一定也能找到活路。',
             TxtCtl.Enter,
         ),
     )

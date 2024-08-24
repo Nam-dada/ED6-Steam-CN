@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -3204,7 +3204,7 @@ def func_0A_1FE7():
             TxtCtl.Enter,
             TxtCtl.Clear,
             '#0110250727V那个轻佻的大赖皮蛋\n',
-            '应该能够相信。',
+            '应该不能够相信。',
             TxtCtl.Enter,
         ),
     )

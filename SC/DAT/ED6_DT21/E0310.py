@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -634,6 +634,7 @@ def Init():
     ChrSetPos(0x0015, 130, 2000, 91480, 270)
     ChrClearFlags(0x0015, 0x0080)
     CreateThread(0x0015, 0x00, 0x00, func_02_D74)
+
     def _loc_6CB(): pass
 
     label('loc_6CB')
@@ -2090,10 +2091,10 @@ def func_03_EF1():
     ChrTalk(
         0x000A,
         (
-            '#0060390319V#1164F<FIXME>……あ、皆さん。',
+            '#0060390319V#1164F……啊，各位。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0060390320V#1160F探索の方はどうですか？',
+            '#0060390320V#1160F探索工作进行的如何？',
             TxtCtl.Enter,
         ),
     )
@@ -2236,11 +2237,11 @@ def func_03_EF1():
     ChrTalk(
         0x010F,
         (
-            '#0100390324V#175F<FIXME>……それが…………',
+            '#0100390324V#175F……这样啊…………',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100390325V#176F突然《怪盗紳士》と\n',
-            '名乗る男に歓迎されまして。',
+            '#0100390325V#176F突然有个自称《怪盗绅士》\n',
+            '的男人来迎接我们。',
             TxtCtl.Enter,
         ),
     )
@@ -2340,11 +2341,11 @@ def func_03_EF1():
     ChrTalk(
         0x010F,
         (
-            '#0100390335V#176F<FIXME>まったく……冗談ではない。',
+            '#0100390335V#176F真是的……简直不像话。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100390336V#178F今度殿下の前に現れたら、\n',
-            'この手で引っ捕らえてやるつもりだ。',
+            '#0100390336V#178F如果他下次再在殿下面前出现，\n',
+            '我一定亲手把他抓住。',
             TxtCtl.Enter,
         ),
     )
@@ -2354,7 +2355,7 @@ def func_03_EF1():
     ChrTalk(
         0x0101,
         (
-            '#0010390337V#1016F<FIXME>あ、あはははは……',
+            '#0010390337V#1016F啊、啊哈哈哈……',
             TxtCtl.Enter,
         ),
     )
@@ -2444,6 +2445,7 @@ def func_03_EF1():
     )
 
     CloseMessageWindow()
+
     def _loc_14E5(): pass
 
     label('loc_14E5')
@@ -2540,7 +2542,7 @@ def func_03_EF1():
     ChrTalk(
         0x000A,
         (
-            '#0060390352V#1160F<FIXME>あ、ユリアさん……',
+            '#0060390352V#1160F啊，尤莉亚小姐……',
             TxtCtl.Enter,
         ),
     )
@@ -2550,11 +2552,11 @@ def func_03_EF1():
     ChrTalk(
         0x010F,
         (
-            '#0100390353V#178F<FIXME>申し訳ありません、殿下。',
+            '#0100390353V#178F公主，非常抱歉。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100390354Vこちらの指揮は\n',
-            'しばらくお任せします。',
+            '#0100390354V这边的指挥工作\n',
+            '暂时就交给您了。',
             TxtCtl.Enter,
         ),
     )
@@ -2564,19 +2566,19 @@ def func_03_EF1():
     ChrTalk(
         0x000A,
         (
-            '#0060390355V#1168F<FIXME>ふふ、大丈夫です。',
+            '#0060390355V#1168F呵呵，没关系。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0060390356Vクルーの皆さんのおかげで\n',
-            '修復作業も順調ですし……',
+            '#0060390356V多亏了船员们\n',
+            '修复作业也进行得很顺利……',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0060390357Vお祖母様に言って\n',
-            'アルセイユを借り出したのは私です。',
+            '#0060390357V跟奶奶提出要求，\n',
+            '把埃尔赛尤借出来的人是我。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0060390358V#1160F私にも、これくらいのことは\n',
-            'させてください。',
+            '#0060390358V#1160F至少请让我\n',
+            '为各位做这些事情。',
             TxtCtl.Enter,
         ),
     )
@@ -2603,21 +2605,20 @@ def func_03_EF1():
     ChrTalk(
         0x000A,
         (
-            '#0060390359V#1167F<FIXME>これから飛翔機関の\n',
-            '負荷試験を行うところです。',
+            '#0060390359V#1167F接下来在舰桥\n',
+            '好像要进行重要的测试。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0060390360Vこれに成功すれば\n',
-            '何とか飛べる状態に\n',
-            'なるそうですから……',
+            '#0060390360V看来修复工程也快要\n',
+            '接近尾声了。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0060390361V#1162Fみなさんも、どうか\n',
-            '無事に戻ってきてください。',
+            '#0060390361V#1162F希望我们能完成使命，\n',
+            '全体成员一起回到地面上。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0060390362Vそして全員そろって\n',
-            '地上に帰りましょう。',
+            '#0060390362V各位……\n',
+            '即使到最后一刻都请不要放松警惕。',
             TxtCtl.Enter,
         ),
     )
@@ -3444,6 +3445,7 @@ def func_03_EF1():
     )
 
     CloseMessageWindow()
+
     def _loc_2818(): pass
 
     label('loc_2818')
@@ -4301,6 +4303,7 @@ def func_04_3234():
     )
 
     CloseMessageWindow()
+
     def _loc_3674(): pass
 
     label('loc_3674')
@@ -4549,6 +4552,7 @@ def func_05_36AA():
     label('loc_37B0')
 
     TalkBegin(0x00FE)
+
     def _loc_37B3(): pass
 
     label('loc_37B3')
@@ -4575,8 +4579,8 @@ def func_05_36AA():
     ChrTalk(
         0x010F,
         (
-            '#0100390430V#170F<FIXME>……ああ、諸君。\n',
-            '探索の方はどうだろうか。',
+            '#0100390430V#170F……啊，各位。\n',
+            '探索工作进行的如何？',
             TxtCtl.Enter,
         ),
     )
@@ -4586,7 +4590,7 @@ def func_05_36AA():
     ChrTalk(
         0x0101,
         (
-            '#0010390321V#1011F<FIXME>うん、えっと……',
+            '#0010390321V#1011F嗯，这个嘛……',
             TxtCtl.Enter,
         ),
     )
@@ -4720,8 +4724,8 @@ def func_05_36AA():
     ChrTalk(
         0x000C,
         (
-            '#0100390435V#170F<FIXME>ああ……\n',
-            '探索要員を入れ替えるのだな。',
+            '#0100390435V#170F嗯……\n',
+            '要重新编组吗。',
             TxtCtl.Enter,
         ),
     )
@@ -5098,7 +5102,7 @@ def func_05_36AA():
             '你们救了空贼小姑娘吗。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100390467V#176F和罪犯一起合作\n',
+            '#0100390467V#176F本来我是不愿意和\n',
             '罪犯一起合作的……',
             TxtCtl.Enter,
             TxtCtl.Clear,

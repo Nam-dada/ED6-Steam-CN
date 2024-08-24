@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -2333,7 +2333,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_1B37')
+    # Jump('loc_1B37')
 
     def _loc_1A88(): pass
 
@@ -2360,7 +2360,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_1B37')
+    # Jump('loc_1B37')
 
     def _loc_1AC1(): pass
 
@@ -2387,7 +2387,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_1B37')
+    # Jump('loc_1B37')
 
     def _loc_1AF9(): pass
 
@@ -2928,7 +2928,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_24D7')
+    # Jump('loc_24D7')
 
     def _loc_22A0(): pass
 
@@ -2955,7 +2955,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_24D7')
+    # Jump('loc_24D7')
 
     def _loc_22E4(): pass
 
@@ -2982,7 +2982,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_24D7')
+    # Jump('loc_24D7')
 
     def _loc_2329(): pass
 
@@ -3009,7 +3009,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_24D7')
+    # Jump('loc_24D7')
 
     def _loc_2374(): pass
 
@@ -3036,7 +3036,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_24D7')
+    # Jump('loc_24D7')
 
     def _loc_23B7(): pass
 
@@ -3063,7 +3063,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_24D7')
+    # Jump('loc_24D7')
 
     def _loc_23FC(): pass
 
@@ -3090,7 +3090,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_24D7')
+    # Jump('loc_24D7')
 
     def _loc_244C(): pass
 
@@ -3117,7 +3117,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_24D7')
+    # Jump('loc_24D7')
 
     def _loc_248F(): pass
 
@@ -3965,7 +3965,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_334C')
+    # Jump('loc_334C')
 
     def _loc_3226(): pass
 
@@ -3993,7 +3993,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_334C')
+    # Jump('loc_334C')
 
     def _loc_3270(): pass
 
@@ -4021,7 +4021,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_334C')
+    # Jump('loc_334C')
 
     def _loc_32C6(): pass
 
@@ -4048,7 +4048,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_334C')
+    # Jump('loc_334C')
 
     def _loc_3305(): pass
 
@@ -4101,7 +4101,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_3455')
+    # Jump('loc_3455')
 
     def _loc_338D(): pass
 
@@ -4128,7 +4128,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_3455')
+    # Jump('loc_3455')
 
     def _loc_33CE(): pass
 
@@ -4155,7 +4155,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_3455')
+    # Jump('loc_3455')
 
     def _loc_3413(): pass
 
@@ -4336,7 +4336,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_3992')
+    # Jump('loc_3992')
 
     def _loc_395C(): pass
 
@@ -4388,7 +4388,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_3A59')
+    # Jump('loc_3A59')
 
     def _loc_39D7(): pass
 
@@ -4415,7 +4415,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_3A59')
+    # Jump('loc_3A59')
 
     def _loc_3A1A(): pass
 
@@ -4467,7 +4467,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_3B5C')
+    # Jump('loc_3B5C')
 
     def _loc_3AA2(): pass
 
@@ -4494,7 +4494,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_3B5C')
+    # Jump('loc_3B5C')
 
     def _loc_3AE1(): pass
 
@@ -4521,7 +4521,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_3B5C')
+    # Jump('loc_3B5C')
 
     def _loc_3B1E(): pass
 
@@ -4856,7 +4856,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4704')
+    # Jump('loc_4704')
 
     def _loc_4542(): pass
 
@@ -4883,7 +4883,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4704')
+    # Jump('loc_4704')
 
     def _loc_4579(): pass
 
@@ -4910,7 +4910,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4704')
+    # Jump('loc_4704')
 
     def _loc_45B1(): pass
 
@@ -4937,7 +4937,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4704')
+    # Jump('loc_4704')
 
     def _loc_45E8(): pass
 
@@ -4964,7 +4964,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4704')
+    # Jump('loc_4704')
 
     def _loc_461F(): pass
 
@@ -4991,7 +4991,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4704')
+    # Jump('loc_4704')
 
     def _loc_4656(): pass
 
@@ -5018,7 +5018,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4704')
+    # Jump('loc_4704')
 
     def _loc_468C(): pass
 
@@ -5045,7 +5045,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4704')
+    # Jump('loc_4704')
 
     def _loc_46C4(): pass
 
@@ -5101,7 +5101,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4C5E')
+    # Jump('loc_4C5E')
 
     def _loc_4797(): pass
 
@@ -5132,7 +5132,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4C5E')
+    # Jump('loc_4C5E')
 
     def _loc_482A(): pass
 
@@ -5162,7 +5162,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4C5E')
+    # Jump('loc_4C5E')
 
     def _loc_48AA(): pass
 
@@ -5197,7 +5197,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4C5E')
+    # Jump('loc_4C5E')
 
     def _loc_4979(): pass
 
@@ -5228,7 +5228,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4C5E')
+    # Jump('loc_4C5E')
 
     def _loc_49EC(): pass
 
@@ -5259,7 +5259,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4C5E')
+    # Jump('loc_4C5E')
 
     def _loc_4A77(): pass
 
@@ -5291,7 +5291,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4C5E')
+    # Jump('loc_4C5E')
 
     def _loc_4AFD(): pass
 
@@ -5323,7 +5323,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_4C5E')
+    # Jump('loc_4C5E')
 
     def _loc_4B85(): pass
 
@@ -5631,7 +5631,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_56C9')
+    # Jump('loc_56C9')
 
     def _loc_5508(): pass
 
@@ -5658,7 +5658,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_56C9')
+    # Jump('loc_56C9')
 
     def _loc_5544(): pass
 
@@ -5685,7 +5685,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_56C9')
+    # Jump('loc_56C9')
 
     def _loc_557D(): pass
 
@@ -5712,7 +5712,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_56C9')
+    # Jump('loc_56C9')
 
     def _loc_55B2(): pass
 
@@ -5739,7 +5739,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_56C9')
+    # Jump('loc_56C9')
 
     def _loc_55ED(): pass
 
@@ -5766,7 +5766,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_56C9')
+    # Jump('loc_56C9')
 
     def _loc_5622(): pass
 
@@ -5793,7 +5793,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_56C9')
+    # Jump('loc_56C9')
 
     def _loc_5659(): pass
 
@@ -5820,7 +5820,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_56C9')
+    # Jump('loc_56C9')
 
     def _loc_5694(): pass
 
@@ -5872,7 +5872,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_58E5')
+    # Jump('loc_58E5')
 
     def _loc_5706(): pass
 
@@ -5899,7 +5899,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_58E5')
+    # Jump('loc_58E5')
 
     def _loc_573E(): pass
 
@@ -5926,7 +5926,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_58E5')
+    # Jump('loc_58E5')
 
     def _loc_577F(): pass
 
@@ -5953,7 +5953,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_58E5')
+    # Jump('loc_58E5')
 
     def _loc_57BE(): pass
 
@@ -5980,7 +5980,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_58E5')
+    # Jump('loc_58E5')
 
     def _loc_57F7(): pass
 
@@ -6007,7 +6007,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_58E5')
+    # Jump('loc_58E5')
 
     def _loc_5836(): pass
 
@@ -6034,7 +6034,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_58E5')
+    # Jump('loc_58E5')
 
     def _loc_586B(): pass
 
@@ -6061,7 +6061,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    Jump('loc_58E5')
+    # Jump('loc_58E5')
 
     def _loc_58AA(): pass
 
@@ -6871,7 +6871,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    Jump('loc_6611')
+    # Jump('loc_6611')
 
     def _loc_645C(): pass
 
@@ -6898,7 +6898,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    Jump('loc_6611')
+    # Jump('loc_6611')
 
     def _loc_6491(): pass
 
@@ -6925,7 +6925,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    Jump('loc_6611')
+    # Jump('loc_6611')
 
     def _loc_64CA(): pass
 
@@ -6952,7 +6952,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    Jump('loc_6611')
+    # Jump('loc_6611')
 
     def _loc_64FF(): pass
 
@@ -6979,7 +6979,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    Jump('loc_6611')
+    # Jump('loc_6611')
 
     def _loc_6534(): pass
 
@@ -7006,7 +7006,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    Jump('loc_6611')
+    # Jump('loc_6611')
 
     def _loc_6569(): pass
 
@@ -7033,7 +7033,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    Jump('loc_6611')
+    # Jump('loc_6611')
 
     def _loc_65A3(): pass
 
@@ -7060,7 +7060,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    Jump('loc_6611')
+    # Jump('loc_6611')
 
     def _loc_65D9(): pass
 
@@ -7363,7 +7363,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    Jump('loc_6CDB')
+    # Jump('loc_6CDB')
 
     def _loc_6C22(): pass
 
@@ -7390,7 +7390,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    Jump('loc_6CDB')
+    # Jump('loc_6CDB')
 
     def _loc_6C5E(): pass
 
@@ -7417,7 +7417,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    Jump('loc_6CDB')
+    # Jump('loc_6CDB')
 
     def _loc_6C9F(): pass
 
@@ -7494,7 +7494,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    Jump('loc_6E2D')
+    # Jump('loc_6E2D')
 
     def _loc_6D5E(): pass
 
@@ -7521,7 +7521,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    Jump('loc_6E2D')
+    # Jump('loc_6E2D')
 
     def _loc_6D9B(): pass
 
@@ -7548,7 +7548,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    Jump('loc_6E2D')
+    # Jump('loc_6E2D')
 
     def _loc_6DE2(): pass
 
@@ -13424,6 +13424,7 @@ def func_18_D3BA():
     OP_97(0x00FE, -11370, 200, -180000, 9000, 0x0002)
     OP_97(0x00FE, -11370, 200, -180000, 10000, 0x0002)
     OP_97(0x00FE, -11370, 200, -180000, 12000, 0x0002)
+
     def _loc_D401(): pass
 
     label('loc_D401')

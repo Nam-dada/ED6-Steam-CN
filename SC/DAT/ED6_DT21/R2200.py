@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -1217,6 +1217,7 @@ def func_03_8AA():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_9B8(): pass
 
     label('loc_9B8')
@@ -1332,6 +1333,7 @@ def func_04_9C6():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_AD4(): pass
 
     label('loc_AD4')
@@ -1536,7 +1538,7 @@ def func_05_AE2():
             TxtCtl.Enter,
             TxtCtl.Clear,
             '#0030210127V虽然类型完全不同，\n',
-            '不过感觉上跟蕾娜阿姨很像。',
+            '不过感觉上跟莱娜阿姨很像。',
             TxtCtl.Enter,
         ),
     )
@@ -3885,6 +3887,7 @@ def func_20_38F0():
 @scena.Code('func_21_3931')
 def func_21_3931():
     ChrSetChipByIndex(0x00FE, 25)
+
     def _loc_3936(): pass
 
     label('loc_3936')
@@ -3917,6 +3920,7 @@ def func_21_3931():
 @scena.Code('func_22_3999')
 def func_22_3999():
     ChrSetChipByIndex(0x00FE, 25)
+
     def _loc_399E(): pass
 
     label('loc_399E')
@@ -3949,6 +3953,7 @@ def func_22_3999():
 @scena.Code('func_23_3A01')
 def func_23_3A01():
     ChrSetChipByIndex(0x00FE, 25)
+
     def _loc_3A06(): pass
 
     label('loc_3A06')
