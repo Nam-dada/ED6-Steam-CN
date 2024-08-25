@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -2218,7 +2218,7 @@ def func_08_18E3():
             TxtCtl.Enter,
             TxtCtl.Clear,
             '#0330190640V罗伯特先生和菲莉斯管理员……\n',
-            '罗伯特先生和菲莉斯管理员……',
+            '去找他们做好准备吧。',
             TxtCtl.Enter,
         ),
     )
