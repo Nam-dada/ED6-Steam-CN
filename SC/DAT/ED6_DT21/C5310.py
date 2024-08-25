@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -1394,7 +1394,7 @@ def func_04_790():
     ChrTalk(
         0x010F,
         (
-            '#0100410391V#178F<FIXME>……くっ……………！',
+            '#0100410391V#178F……唔……………！',
             TxtCtl.Enter,
         ),
     )
@@ -2030,12 +2030,12 @@ def func_0B_13B1():
     ChrTalk(
         0x010F,
         (
-            '#0100410469V#176F<FIXME>ふう……どうやら\n',
-            '試されたようだな。',
+            '#0100410469V#176F呼……看来我们\n',
+            '是被试探了啊。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100410470V#170F悪人のようにも\n',
-            '見受けられなかったが……',
+            '#0100410470V#170F虽然她看起来\n',
+            '也不像是个坏人……',
             TxtCtl.Enter,
         ),
     )
@@ -2229,9 +2229,9 @@ def func_0B_13B1():
     ChrTalk(
         0x0107,
         (
-            '#0070410477V#066F<FIXME>えへへ、なんだか\n',
-            '大人の女のひとって\n',
-            '感じでしたよね……',
+            '#0070410477V#066F嘻嘻，\n',
+            '总感觉她\n',
+            '真像个成熟的女人呢……',
             TxtCtl.Enter,
         ),
     )
@@ -2256,9 +2256,9 @@ def func_0B_13B1():
     ChrTalk(
         0x0110,
         (
-            '#0110410478V#272F<FIXME>ふむ……\n',
-            'しかし《銀閃》が知ったら\n',
-            'さぞ気落ちするだろうな。',
+            '#0110410478V#272F嗯……\n',
+            '不过如果《银闪》知道了，\n',
+            '恐怕会很失落吧。',
             TxtCtl.Enter,
         ),
     )
@@ -2425,13 +2425,13 @@ def func_0B_13B1():
     ChrTalk(
         0x0104,
         (
-            '#0040410484V#34F<FIXME>……ふむ、しかしシェラ君は\n',
-            'ガッカリするかもしれないね。',
+            '#0040410484V#34F……嗯，不过雪拉君\n',
+            '可能会感到失望吧。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0040410485V#30F２人の間にも、\n',
-            '２人にしか分からない絆が\n',
-            'あったようだからね。',
+            '#0040410485V#30F毕竟她们之间\n',
+            '似乎有着只有\n',
+            '她们才能理解的羁绊。',
             TxtCtl.Enter,
         ),
     )
@@ -2458,8 +2458,8 @@ def func_0B_13B1():
     ChrTalk(
         0x0108,
         (
-            '#0080410486V#074F<FIXME>ふむ、しかしシェラザードは\n',
-            'ガッカリするかもしれんな。',
+            '#0080410486V#074F嗯，不过\n',
+            '雪拉扎德可能会失望吧。',
             TxtCtl.Enter,
         ),
     )
@@ -2476,11 +2476,11 @@ def func_0B_13B1():
     ChrTalk(
         0x0101,
         (
-            '#0010410487V#1007F#2P<FIXME>うん……でも仕方ないよね。',
+            '#0010410487V#1007F#2P嗯……不过也没办法呢。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0010410488V#1015Fあの２人が出会ったら\n',
-            'それはそれで心配だったし……',
+            '#0010410488V#1015F如果那两个人见面了，\n',
+            '我也会担心的……',
             TxtCtl.Enter,
         ),
     )
@@ -2573,6 +2573,7 @@ def func_0D_2149():
     ChrMoveToRelativeAsync(0x000B, -50, 0, 0, 300, 0x00)
     ChrMoveToRelativeAsync(0x000B, 100, 0, 0, 300, 0x00)
     ChrMoveToRelativeAsync(0x000B, -100, 0, 0, 300, 0x00)
+
     def _loc_21C4(): pass
 
     label('loc_21C4')
@@ -2608,6 +2609,7 @@ def func_0E_21F9():
     ChrMoveToRelativeAsync(0x000C, 50, 0, 0, 300, 0x00)
     ChrMoveToRelativeAsync(0x000C, -100, 0, 0, 300, 0x00)
     ChrMoveToRelativeAsync(0x000C, 100, 0, 0, 300, 0x00)
+
     def _loc_2274(): pass
 
     label('loc_2274')
@@ -2783,7 +2785,7 @@ def func_0F_22A9():
     ChrTalk(
         0x010F,
         (
-            '#0100410394V#172F<FIXME>鈴の音……？',
+            '#0100410394V#172F铃铛声……？',
             TxtCtl.Enter,
         ),
     )
@@ -5100,11 +5102,11 @@ def func_10_3788():
     ChrTalk(
         0x010F,
         (
-            '#0100410581V#175F<FIXME>シェラザード君……',
+            '#0100410581V#175F雪拉扎德君……',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100410582Vここは一度、\n',
-            'アルセイユに戻った方が……',
+            '#0100410582V我们还是先回一次\n',
+            '埃尔赛尤号比较好……',
             TxtCtl.Enter,
         ),
     )

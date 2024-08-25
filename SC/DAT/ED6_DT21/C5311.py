@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -846,7 +846,7 @@ def func_04_470():
     ChrTalk(
         0x010F,
         (
-            '#0100410595V#178F<FIXME>《殲滅天使》……　　　　',
+            '#0100410595V#178F《歼灭天使》……　　　　',
             TxtCtl.Enter,
         ),
     )
@@ -873,7 +873,7 @@ def func_04_470():
     ChrTalk(
         0x0110,
         (
-            '#0110410596V#270F<FIXME>《殲滅天使》……　　　　',
+            '#0110410596V#270F《歼灭天使》……　　　　',
             TxtCtl.Enter,
         ),
     )
@@ -1627,11 +1627,11 @@ def func_04_470():
     ChrTalk(
         0x0110,
         (
-            '#0110410654V#277F<FIXME>……問題なかろう。',
+            '#0110410654V#277F……应该没问题吧。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0110410655V子供を躾けるのも\n',
-            '大人の義務だからな。',
+            '#0110410655V教导孩子\n',
+            '也是大人的责任。',
             TxtCtl.Enter,
         ),
     )
@@ -1742,11 +1742,11 @@ def func_04_470():
     ChrTalk(
         0x010F,
         (
-            '#0100410659V#176F<FIXME>……詳しい経緯は知らない。',
+            '#0100410659V#176F……我不清楚具体的经过。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100410660V#170Fだが、私も正すべきところは\n',
-            '正すべきだと思う。',
+            '#0100410660V#170F但我也认为\n',
+            '该纠正的地方就必须纠正。',
             TxtCtl.Enter,
         ),
     )
@@ -1799,7 +1799,7 @@ def func_04_470():
     ChrTalk(
         0x010F,
         (
-            '#0100410662V#179F<FIXME>……私も全力を尽くさせてもらう。',
+            '#0100410662V#179F……我也会全力以赴。',
             TxtCtl.Enter,
         ),
     )
@@ -1910,8 +1910,8 @@ def func_04_470():
     ChrTalk(
         0x0110,
         (
-            '#0110410666V#277F<FIXME>……この辺りでひとつ、\n',
-            '気合を入れさせてもらうか。',
+            '#0110410666V#277F……在这时候，\n',
+            '让我也鼓足干劲吧。',
             TxtCtl.Enter,
         ),
     )
@@ -4092,11 +4092,11 @@ def func_0B_3DDB():
     ChrTalk(
         0x010F,
         (
-            '#0100410757V#179F<FIXME>……焦ることはない。',
+            '#0100410757V#179F……不必着急。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100410758V#170F『人はいつでも後戻りが出来る』……\n',
-            '君もそう言っていただろう。',
+            '#0100410758V#170F『人随时都可以回头』……\n',
+            '你也是这么说的吧。',
             TxtCtl.Enter,
         ),
     )
@@ -4123,12 +4123,12 @@ def func_0B_3DDB():
     ChrTalk(
         0x010B,
         (
-            '#0090410759V#210F<FIXME>へへ……\n',
-            'まだ子供ってことだよね。',
+            '#0090410759V#210F嘿嘿……\n',
+            '还只是个孩子嘛。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0090410760Vそのうちにさ、機嫌直して\n',
-            '帰ってくるんじゃないの？',
+            '#0090410760V说不定过一阵子，\n',
+            '她就会气消了自己回来了吧？',
             TxtCtl.Enter,
         ),
     )

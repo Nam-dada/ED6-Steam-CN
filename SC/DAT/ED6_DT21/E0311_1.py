@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -1056,6 +1056,7 @@ def func_01_A9():
     )
 
     CloseMessageWindow()
+
     def _loc_F36(): pass
 
     label('loc_F36')
@@ -1630,7 +1631,7 @@ def func_02_11DF():
     ChrTalk(
         0x0110,
         (
-            '#0110390592V#272F<FIXME>……同感だ。',
+            '#0110390592V#272F……同感。',
             TxtCtl.Enter,
         ),
     )
@@ -1663,6 +1664,7 @@ def func_02_11DF():
     )
 
     CloseMessageWindow()
+
     def _loc_1623(): pass
 
     label('loc_1623')
@@ -1715,7 +1717,7 @@ def func_02_11DF():
     ChrTalk(
         0x0110,
         (
-            '#0110390598V#272F<FIXME>（……やはり同類か。）',
+            '#0110390598V#272F（……果然是同类啊。）',
             TxtCtl.Enter,
         ),
     )
@@ -1757,6 +1759,7 @@ def func_02_11DF():
     )
 
     CloseMessageWindow()
+
     def _loc_17D3(): pass
 
     label('loc_17D3')
@@ -4621,6 +4624,7 @@ def func_06_4168():
 
     CloseMessageWindow()
     FadeIn(300, 0)
+
     def _loc_431E(): pass
 
     label('loc_431E')
@@ -5072,6 +5076,7 @@ def func_06_4168():
     )
 
     CloseMessageWindow()
+
     def _loc_475B(): pass
 
     label('loc_475B')

@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -591,8 +591,8 @@ def func_02_AA():
     ChrTalk(
         0x010F,
         (
-            '#0100411311V#173F<FIXME>これは……\n',
-            'アルセイユを撃墜した……！',
+            '#0100411311V#173F这是……\n',
+            '埃尔赛尤号被击落了……！',
             TxtCtl.Enter,
         ),
     )
@@ -810,8 +810,8 @@ def func_02_AA():
     ChrTalk(
         0x0110,
         (
-            '#0110411319V#271F<FIXME>む……\n',
-            'アルセイユを撃墜した……！',
+            '#0110411319V#271F嗯……\n',
+            '埃尔赛尤号被击落了……！',
             TxtCtl.Enter,
         ),
     )
@@ -899,8 +899,8 @@ def func_02_AA():
     ChrTalk(
         0x0110,
         (
-            '#0110411323V#271F<FIXME>フン……\n',
-            '簡単には通さんというわけか……！',
+            '#0110411323V#271F哼……\n',
+            '看来想轻易通过是不可能的了……！',
             TxtCtl.Enter,
         ),
     )
@@ -1095,7 +1095,7 @@ def func_02_AA():
     ChrTalk(
         0x0107,
         (
-            '#0070411330V#065F<FIXME>は、はうぅ……！',
+            '#0070411330V#065F哈、哈呜……！',
             TxtCtl.Enter,
         ),
     )
@@ -1163,10 +1163,10 @@ def func_02_AA():
 
     NpcTalk(
         0x000A,
-        '男の声',
+        '男性的声音',
         (
-            '#0110411333V#5P<FIXME>──ならば、\n',
-            'ここは我々が引き受けよう。',
+            '#0110411333V#5P──那么，\n',
+            '这里就交给我们吧。',
             TxtCtl.Enter,
         ),
     )
@@ -1194,10 +1194,10 @@ def func_02_AA():
 
     NpcTalk(
         0x0012,
-        '娘の声',
+        '女性的声音',
         (
-            '#0060411334V<FIXME>──エステルさん、\n',
-            'ここは私たちが引き受けます！',
+            '#0060411334V──艾丝蒂尔小姐，\n',
+            '这里就交给我们吧！',
             TxtCtl.Enter,
         ),
     )
@@ -1624,8 +1624,8 @@ def func_02_AA():
     ChrTalk(
         0x0104,
         (
-            '#0040411337V#030F<FIXME>ミュラーも……\n',
-            'ナイスタイミングだ！',
+            '#0040411337V#030F穆拉，你们……\n',
+            '来的正是时候！',
             TxtCtl.Enter,
         ),
     )
@@ -1756,7 +1756,7 @@ def func_02_AA():
     ChrTalk(
         0x010F,
         (
-            '#0100411343V#173F<FIXME>ミュラー少佐……！？',
+            '#0100411343V#173F穆拉少校……！？',
             TxtCtl.Enter,
         ),
     )
@@ -1853,7 +1853,7 @@ def func_02_AA():
     ChrTalk(
         0x0110,
         (
-            '#0110411347V#273F<FIXME>……ユリア大尉！',
+            '#0110411347V#273F……尤莉亚上尉！',
             TxtCtl.Enter,
         ),
     )
@@ -2100,7 +2100,7 @@ def func_02_AA():
     ChrTalk(
         0x0110,
         (
-            '#0110411347V#273F<FIXME>……ユリア大尉！',
+            '#0110411347V#273F……尤莉亚上尉！',
             TxtCtl.Enter,
         ),
     )
@@ -2138,7 +2138,7 @@ def func_02_AA():
     ChrTalk(
         0x010F,
         (
-            '#0100411343V#173F<FIXME>ミュラー少佐……！？',
+            '#0100411343V#173F穆拉少校……！？',
             TxtCtl.Enter,
         ),
     )
@@ -2181,7 +2181,7 @@ def func_02_AA():
     ChrTalk(
         0x010F,
         (
-            '#0100411361V#173F<FIXME>で、殿下……？',
+            '#0100411361V#173F诶、公主……？',
             TxtCtl.Enter,
         ),
     )
@@ -2224,7 +2224,7 @@ def func_02_AA():
     ChrTalk(
         0x0110,
         (
-            '#0110411347V#273F<FIXME>……ユリア大尉！',
+            '#0110411347V#273F……尤莉亚上尉！',
             TxtCtl.Enter,
         ),
     )
@@ -2267,7 +2267,7 @@ def func_02_AA():
     ChrTalk(
         0x010F,
         (
-            '#0100411343V#173F<FIXME>ミュラー少佐……！？',
+            '#0100411343V#173F穆拉少校……！？',
             TxtCtl.Enter,
         ),
     )
@@ -2477,8 +2477,8 @@ def func_02_AA():
     ChrTalk(
         0x0012,
         (
-            '#0060411374V#1168F<FIXME>ふふ、アルセイユの修理が\n',
-            'そろそろ完了しそうなので……',
+            '#0060411374V#1168F呵呵，因为埃尔赛尤号的修理\n',
+            '差不多快完成了……',
             TxtCtl.Enter,
         ),
     )
@@ -2494,8 +2494,8 @@ def func_02_AA():
     ChrTalk(
         0x0010,
         (
-            '#0030411375V#027F<FIXME>ふふっ、アルセイユの修理も\n',
-            'そろそろ終わるって話だからね。',
+            '#0030411375V#027F呵呵，因为埃尔赛尤号的修理\n',
+            '差不多快要完成了。',
             TxtCtl.Enter,
         ),
     )
@@ -2548,8 +2548,8 @@ def func_02_AA():
     ChrTalk(
         0x0010,
         (
-            '#0030411377V#526F<FIXME>動ける連中を集めて\n',
-            '加勢しに来たってワケよ！',
+            '#0030411377V#526F我们召集了能动的人\n',
+            '来支援你们！',
             TxtCtl.Enter,
         ),
     )
@@ -2565,8 +2565,8 @@ def func_02_AA():
     ChrTalk(
         0x0012,
         (
-            '#0060411378V#1168F<FIXME>手の空いた方々で\n',
-            '加勢しに来たんです！',
+            '#0060411378V#1168F我们这些有空的人\n',
+            '来支援了！',
             TxtCtl.Enter,
         ),
     )
@@ -2818,8 +2818,8 @@ def func_02_AA():
     ChrTalk(
         0x000B,
         (
-            '#0100411392V#177F<FIXME>話は後だ！\n',
-            'ここは我々に任せてくれ！',
+            '#0100411392V#177F后面的事等会再说！\n',
+            '这里交给我们！',
             TxtCtl.Enter,
         ),
     )
@@ -2929,7 +2929,7 @@ def func_02_AA():
     ChrTalk(
         0x000A,
         (
-            '#0110411396V#271F<FIXME>君たちは先へ進め！',
+            '#0110411396V#271F你们继续向前推进！',
             TxtCtl.Enter,
         ),
     )
@@ -3037,7 +3037,7 @@ def func_02_AA():
     ChrTalk(
         0x0012,
         (
-            '#0060411402V#1166F<FIXME>それでは皆さん……',
+            '#0060411402V#1166F那么，大家……',
             TxtCtl.Enter,
         ),
     )
@@ -3053,7 +3053,7 @@ def func_02_AA():
     ChrTalk(
         0x0010,
         (
-            '#0030411403V#024F<FIXME>それじゃ行くわよ！',
+            '#0030411403V#024F那我们出发了！',
             TxtCtl.Enter,
         ),
     )
@@ -3105,7 +3105,7 @@ def func_02_AA():
     ChrTalk(
         0x0010,
         (
-            '#0030411405V#024F<FIXME>二手に分かれて撃破するわよ！',
+            '#0030411405V#024F分成两组进行击破吧！',
             TxtCtl.Enter,
         ),
     )
@@ -3121,7 +3121,7 @@ def func_02_AA():
     ChrTalk(
         0x0012,
         (
-            '#0060411406V#1166F<FIXME>二手に分かれて撃破します！',
+            '#0060411406V#1166F分成两组进行击破吧！',
             TxtCtl.Enter,
         ),
     )
@@ -3734,6 +3734,7 @@ def func_12_2AA3():
     DispatchAsync(0x0008, 0x0001, lambda_2B42)
 
     ChrJumpTo(0x0102, 350, -370, 3400, 500, 10000)
+
     def _loc_2B71(): pass
 
     label('loc_2B71')
@@ -4599,6 +4600,7 @@ def func_2D_3845():
     ChrSetDirection(0x000B, 0, 0)
     ChrSetChipByIndex(0x000B, 0)
     ChrSetSubChip(0x00FE, 0)
+
     def _loc_3874(): pass
 
     label('loc_3874')
@@ -4631,6 +4633,7 @@ def func_2E_388D():
     ChrSetDirection(0x000D, 0, 0)
     ChrSetChipByIndex(0x000D, 1)
     ChrSetSubChip(0x00FE, 0)
+
     def _loc_38BC(): pass
 
     label('loc_38BC')
@@ -4665,6 +4668,7 @@ def func_2F_3911():
     ChrSetDirection(0x0012, 0, 0)
     ChrSetChipByIndex(0x0012, 8)
     ChrSetSubChip(0x00FE, 0)
+
     def _loc_3940(): pass
 
     label('loc_3940')
@@ -4697,6 +4701,7 @@ def func_30_3959():
     ChrSetDirection(0x0011, 0, 0)
     ChrSetChipByIndex(0x0011, 4)
     ChrSetSubChip(0x00FE, 0)
+
     def _loc_3988(): pass
 
     label('loc_3988')
@@ -4732,6 +4737,7 @@ def func_31_39DB():
     ChrSetDirection(0x0015, 0, 0)
     ChrSetChipByIndex(0x0015, 28)
     ChrSetSubChip(0x00FE, 0)
+
     def _loc_3A0F(): pass
 
     label('loc_3A0F')
@@ -4765,6 +4771,7 @@ def func_32_3A2D():
     ChrSetDirection(0x0014, 0, 0)
     ChrSetChipByIndex(0x0014, 27)
     ChrSetSubChip(0x00FE, 0)
+
     def _loc_3A5C(): pass
 
     label('loc_3A5C')
@@ -4797,6 +4804,7 @@ def func_33_3A75():
     ChrSetDirection(0x000A, 0, 0)
     ChrSetChipByIndex(0x000A, 31)
     ChrSetSubChip(0x00FE, 0)
+
     def _loc_3AA4(): pass
 
     label('loc_3AA4')
@@ -4830,6 +4838,7 @@ def func_34_3AF2():
     ChrSetDirection(0x000E, 0, 0)
     ChrSetChipByIndex(0x000E, 2)
     ChrSetSubChip(0x00FE, 0)
+
     def _loc_3B21(): pass
 
     label('loc_3B21')
@@ -4862,6 +4871,7 @@ def func_35_3B3A():
     ChrSetDirection(0x0016, 0, 0)
     ChrSetChipByIndex(0x0016, 32)
     ChrSetSubChip(0x00FE, 0)
+
     def _loc_3B69(): pass
 
     label('loc_3B69')
@@ -4896,6 +4906,7 @@ def func_36_3BBC():
     ChrSetDirection(0x0010, 0, 0)
     ChrSetChipByIndex(0x0010, 3)
     ChrSetSubChip(0x00FE, 0)
+
     def _loc_3BEB(): pass
 
     label('loc_3BEB')
@@ -4928,6 +4939,7 @@ def func_37_3C04():
     ChrSetDirection(0x000F, 0, 0)
     ChrSetChipByIndex(0x000F, 9)
     ChrSetSubChip(0x00FE, 0)
+
     def _loc_3C33(): pass
 
     label('loc_3C33')
@@ -4961,6 +4973,7 @@ def func_38_3C81():
     ChrSetDirection(0x0013, 0, 0)
     ChrSetChipByIndex(0x0013, 10)
     ChrSetSubChip(0x00FE, 0)
+
     def _loc_3CB0(): pass
 
     label('loc_3CB0')

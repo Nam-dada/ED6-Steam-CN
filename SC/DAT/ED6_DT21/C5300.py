@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -780,6 +780,7 @@ def func_02_511():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_61F(): pass
 
     label('loc_61F')
@@ -895,6 +896,7 @@ def func_03_62D():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_73B(): pass
 
     label('loc_73B')
@@ -1010,6 +1012,7 @@ def func_04_749():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_857(): pass
 
     label('loc_857')
@@ -1125,6 +1128,7 @@ def func_05_865():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_973(): pass
 
     label('loc_973')
@@ -1240,6 +1244,7 @@ def func_06_981():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_A8F(): pass
 
     label('loc_A8F')
@@ -1355,6 +1360,7 @@ def func_07_A9D():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_BAB(): pass
 
     label('loc_BAB')
@@ -1560,7 +1566,7 @@ def func_08_BB9():
     ChrTalk(
         0x0110,
         (
-            '#0110401301V<FIXME>#270Fこれが《中枢塔》の内部か……',
+            '#0110401301V#270F这里就是『中枢塔』的内部吗……',
             TxtCtl.Enter,
         ),
     )
@@ -1669,7 +1675,7 @@ def func_08_BB9():
     ChrTalk(
         0x010F,
         (
-            '#0100401305V<FIXME>#172Fこれが《中枢塔》の内部……',
+            '#0100401305V#172F这里就是『中枢塔』的内部……',
             TxtCtl.Enter,
         ),
     )
@@ -1722,8 +1728,8 @@ def func_08_BB9():
     ChrTalk(
         0x010F,
         (
-            '#0100401307V<FIXME>#178Fまるで大きな装置の\n',
-            '中にいるようだが……',
+            '#0100401307V#178F感觉就像是在\n',
+            '一个巨大的装置里一样……',
             TxtCtl.Enter,
         ),
     )
@@ -1834,8 +1840,8 @@ def func_08_BB9():
     ChrTalk(
         0x0110,
         (
-            '#0110401311V<FIXME>#270Fまるで大きな装置の\n',
-            '内部のようだが……',
+            '#0110401311V#270F感觉就像是在\n',
+            '一个巨大的装置内部一样……',
             TxtCtl.Enter,
         ),
     )

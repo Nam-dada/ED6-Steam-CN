@@ -2333,7 +2333,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_1B37')
+    Jump('loc_1B37')
 
     def _loc_1A88(): pass
 
@@ -2360,7 +2360,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_1B37')
+    Jump('loc_1B37')
 
     def _loc_1AC1(): pass
 
@@ -2387,7 +2387,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_1B37')
+    Jump('loc_1B37')
 
     def _loc_1AF9(): pass
 
@@ -2407,7 +2407,7 @@ def func_07_1217():
     ChrTalk(
         0x010F,
         (
-            '#0100420227V#175F<FIXME>まさに外道だな……',
+            '#0100420227V#175F真是卑鄙至极……',
             TxtCtl.Enter,
         ),
     )
@@ -2457,7 +2457,7 @@ def func_07_1217():
     ChrTalk(
         0x0110,
         (
-            '#0110420229V#272F<FIXME>巫山戯#6Rふざけ#た男だ……',
+            '#0110420229V#272F真是个胡闹的家伙……',
             TxtCtl.Enter,
         ),
     )
@@ -2690,7 +2690,7 @@ def func_07_1217():
     ChrTalk(
         0x010F,
         (
-            '#0100420244V#176F<FIXME>…………くっ…………………',
+            '#0100420244V#176F…………唔…………………',
             TxtCtl.Enter,
         ),
     )
@@ -2928,7 +2928,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_24D7')
+    Jump('loc_24D7')
 
     def _loc_22A0(): pass
 
@@ -2955,7 +2955,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_24D7')
+    Jump('loc_24D7')
 
     def _loc_22E4(): pass
 
@@ -2982,7 +2982,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_24D7')
+    Jump('loc_24D7')
 
     def _loc_2329(): pass
 
@@ -3002,14 +3002,14 @@ def func_07_1217():
     ChrTalk(
         0x010F,
         (
-            '#0100420261V#178F<FIXME>やはりそれが《輝く環》か……',
+            '#0100420261V#178F果然那就是『辉之环』吗……',
             TxtCtl.Enter,
         ),
     )
 
     CloseMessageWindow()
 
-    # Jump('loc_24D7')
+    Jump('loc_24D7')
 
     def _loc_2374(): pass
 
@@ -3036,7 +3036,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_24D7')
+    Jump('loc_24D7')
 
     def _loc_23B7(): pass
 
@@ -3063,7 +3063,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_24D7')
+    Jump('loc_24D7')
 
     def _loc_23FC(): pass
 
@@ -3083,14 +3083,14 @@ def func_07_1217():
     ChrTalk(
         0x0106,
         (
-            '#0050420264V#057F#5P<FIXME>やはりそいつが《輝く環》か……',
+            '#0050420264V#057F#5P果然那就是『辉之环』吗……',
             TxtCtl.Enter,
         ),
     )
 
     CloseMessageWindow()
 
-    # Jump('loc_24D7')
+    Jump('loc_24D7')
 
     def _loc_244C(): pass
 
@@ -3117,7 +3117,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_24D7')
+    Jump('loc_24D7')
 
     def _loc_248F(): pass
 
@@ -3137,7 +3137,7 @@ def func_07_1217():
     ChrTalk(
         0x0110,
         (
-            '#0110420266V#270F<FIXME>やはりそれが《輝く環》か……',
+            '#0110420266V#270F果然那就是『辉之环』吗……',
             TxtCtl.Enter,
         ),
     )
@@ -3965,7 +3965,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_334C')
+    Jump('loc_334C')
 
     def _loc_3226(): pass
 
@@ -3993,7 +3993,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_334C')
+    Jump('loc_334C')
 
     def _loc_3270(): pass
 
@@ -4013,15 +4013,15 @@ def func_07_1217():
     ChrTalk(
         0x010F,
         (
-            '#0100420297V#175F<FIXME>ま、まさか……\n',
-            'そんな事があったとは……',
+            '#0100420297V#175F不、不会吧……\n',
+            '竟然发生了那样的事……',
             TxtCtl.Enter,
         ),
     )
 
     CloseMessageWindow()
 
-    # Jump('loc_334C')
+    Jump('loc_334C')
 
     def _loc_32C6(): pass
 
@@ -4048,7 +4048,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_334C')
+    Jump('loc_334C')
 
     def _loc_3305(): pass
 
@@ -4101,7 +4101,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_3455')
+    Jump('loc_3455')
 
     def _loc_338D(): pass
 
@@ -4128,7 +4128,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_3455')
+    Jump('loc_3455')
 
     def _loc_33CE(): pass
 
@@ -4155,7 +4155,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_3455')
+    Jump('loc_3455')
 
     def _loc_3413(): pass
 
@@ -4175,7 +4175,7 @@ def func_07_1217():
     ChrTalk(
         0x0110,
         (
-            '#0110420303V#272F<FIXME>とんでもない話だな……',
+            '#0110420303V#272F真是荒唐透顶……',
             TxtCtl.Enter,
         ),
     )
@@ -4329,14 +4329,14 @@ def func_07_1217():
     ChrTalk(
         0x010F,
         (
-            '#0100420322V#178F<FIXME>そ、そんなことを……',
+            '#0100420322V#178F竟、竟然会做出那种事……',
             TxtCtl.Enter,
         ),
     )
 
     CloseMessageWindow()
 
-    # Jump('loc_3992')
+    Jump('loc_3992')
 
     def _loc_395C(): pass
 
@@ -4388,7 +4388,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_3A59')
+    Jump('loc_3A59')
 
     def _loc_39D7(): pass
 
@@ -4415,7 +4415,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_3A59')
+    Jump('loc_3A59')
 
     def _loc_3A1A(): pass
 
@@ -4460,14 +4460,14 @@ def func_07_1217():
     ChrTalk(
         0x0110,
         (
-            '#0110420327V#276F<FIXME>フン、どうかしているな……',
+            '#0110420327V#276F哼，真是不可理喻……',
             TxtCtl.Enter,
         ),
     )
 
     CloseMessageWindow()
 
-    # Jump('loc_3B5C')
+    Jump('loc_3B5C')
 
     def _loc_3AA2(): pass
 
@@ -4494,7 +4494,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_3B5C')
+    Jump('loc_3B5C')
 
     def _loc_3AE1(): pass
 
@@ -4521,7 +4521,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_3B5C')
+    Jump('loc_3B5C')
 
     def _loc_3B1E(): pass
 
@@ -4856,7 +4856,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_4704')
+    Jump('loc_4704')
 
     def _loc_4542(): pass
 
@@ -4883,7 +4883,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_4704')
+    Jump('loc_4704')
 
     def _loc_4579(): pass
 
@@ -4910,7 +4910,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_4704')
+    Jump('loc_4704')
 
     def _loc_45B1(): pass
 
@@ -4937,7 +4937,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_4704')
+    Jump('loc_4704')
 
     def _loc_45E8(): pass
 
@@ -4964,7 +4964,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_4704')
+    Jump('loc_4704')
 
     def _loc_461F(): pass
 
@@ -4991,7 +4991,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_4704')
+    Jump('loc_4704')
 
     def _loc_4656(): pass
 
@@ -5018,7 +5018,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_4704')
+    Jump('loc_4704')
 
     def _loc_468C(): pass
 
@@ -5045,7 +5045,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_4704')
+    Jump('loc_4704')
 
     def _loc_46C4(): pass
 
@@ -5065,7 +5065,7 @@ def func_07_1217():
     ChrTalk(
         0x010B,
         (
-            '#0090420373V#213F<FIXME>……あ…………………',
+            '#0090420373V#213F……啊…………………',
             TxtCtl.Enter,
         ),
     )
@@ -5090,18 +5090,18 @@ def func_07_1217():
     ChrTalk(
         0x0110,
         (
-            '#0110420374V#277F<FIXME>人は１人で生きているようで、\n',
-            'その実様々なものに生かされてる……',
+            '#0110420374V#277F人看似独自生存，但实际上却\n',
+            '依赖着许多东西才能活下去……',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0110420375V#278Fフッ……確かにな。',
+            '#0110420375V#278F哼……确实如此。',
             TxtCtl.Enter,
         ),
     )
 
     CloseMessageWindow()
 
-    # Jump('loc_4C5E')
+    Jump('loc_4C5E')
 
     def _loc_4797(): pass
 
@@ -5132,7 +5132,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_4C5E')
+    Jump('loc_4C5E')
 
     def _loc_482A(): pass
 
@@ -5162,7 +5162,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_4C5E')
+    Jump('loc_4C5E')
 
     def _loc_48AA(): pass
 
@@ -5182,22 +5182,22 @@ def func_07_1217():
     ChrTalk(
         0x010F,
         (
-            '#0100420380V#179F<FIXME>ああ……その通りだ。',
+            '#0100420380V#179F嗯……没错。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100420381V人は、お互いに助け合って\n',
-            '生きていくもの……',
+            '#0100420381V人类本该互相帮助\n',
+            '共同生存……',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100420382V#170F<FIXME>その心なくしては、我々は\n',
-            'ここまで辿り着けなかったはずだ。',
+            '#0100420382V#170F若没有这种精神，我们\n',
+            '不可能走到今天这一步。',
             TxtCtl.Enter,
         ),
     )
 
     CloseMessageWindow()
 
-    # Jump('loc_4C5E')
+    Jump('loc_4C5E')
 
     def _loc_4979(): pass
 
@@ -5228,7 +5228,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_4C5E')
+    Jump('loc_4C5E')
 
     def _loc_49EC(): pass
 
@@ -5259,7 +5259,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_4C5E')
+    Jump('loc_4C5E')
 
     def _loc_4A77(): pass
 
@@ -5291,7 +5291,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_4C5E')
+    Jump('loc_4C5E')
 
     def _loc_4AFD(): pass
 
@@ -5323,7 +5323,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_4C5E')
+    Jump('loc_4C5E')
 
     def _loc_4B85(): pass
 
@@ -5343,17 +5343,17 @@ def func_07_1217():
     ChrTalk(
         0x0107,
         (
-            '#0070420391V#560F<FIXME>う、うん……\n',
-            'わたしもそう思うよ。',
+            '#0070420391V#560F嗯、嗯……\n',
+            '我也是这么想的。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0070420392V#563F１人だけで\n',
-            '生きている人なんていない……',
+            '#0070420392V#563F没有人是\n',
+            '一个人活着的……',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0070420393V思い出とか感情とか……\n',
-            'みんな、誰かと関わって\n',
-            '生きて行くんだから……',
+            '#0070420393V回忆、感情……\n',
+            '大家都是与他人\n',
+            '联系在一起生活下去的……',
             TxtCtl.Enter,
         ),
     )
@@ -5631,7 +5631,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_56C9')
+    Jump('loc_56C9')
 
     def _loc_5508(): pass
 
@@ -5658,7 +5658,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_56C9')
+    Jump('loc_56C9')
 
     def _loc_5544(): pass
 
@@ -5685,7 +5685,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_56C9')
+    Jump('loc_56C9')
 
     def _loc_557D(): pass
 
@@ -5712,7 +5712,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_56C9')
+    Jump('loc_56C9')
 
     def _loc_55B2(): pass
 
@@ -5732,14 +5732,14 @@ def func_07_1217():
     ChrTalk(
         0x010F,
         (
-            '#0100420422V#172F<FIXME>くっ……！？',
+            '#0100420422V#172F呜……！？',
             TxtCtl.Enter,
         ),
     )
 
     CloseMessageWindow()
 
-    # Jump('loc_56C9')
+    Jump('loc_56C9')
 
     def _loc_55ED(): pass
 
@@ -5766,7 +5766,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_56C9')
+    Jump('loc_56C9')
 
     def _loc_5622(): pass
 
@@ -5793,7 +5793,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_56C9')
+    Jump('loc_56C9')
 
     def _loc_5659(): pass
 
@@ -5813,14 +5813,14 @@ def func_07_1217():
     ChrTalk(
         0x0110,
         (
-            '#0110420425V#273F<FIXME>むっ……！？',
+            '#0110420425V#273F唔……！？',
             TxtCtl.Enter,
         ),
     )
 
     CloseMessageWindow()
 
-    # Jump('loc_56C9')
+    Jump('loc_56C9')
 
     def _loc_5694(): pass
 
@@ -5872,7 +5872,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_58E5')
+    Jump('loc_58E5')
 
     def _loc_5706(): pass
 
@@ -5899,7 +5899,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_58E5')
+    Jump('loc_58E5')
 
     def _loc_573E(): pass
 
@@ -5919,14 +5919,14 @@ def func_07_1217():
     ChrTalk(
         0x0110,
         (
-            '#0110420429V#271F<FIXME>これが魔眼か……！',
+            '#0110420429V#271F这就是魔眼吗……！',
             TxtCtl.Enter,
         ),
     )
 
     CloseMessageWindow()
 
-    # Jump('loc_58E5')
+    Jump('loc_58E5')
 
     def _loc_577F(): pass
 
@@ -5953,7 +5953,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_58E5')
+    Jump('loc_58E5')
 
     def _loc_57BE(): pass
 
@@ -5980,7 +5980,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_58E5')
+    Jump('loc_58E5')
 
     def _loc_57F7(): pass
 
@@ -6000,14 +6000,14 @@ def func_07_1217():
     ChrTalk(
         0x010F,
         (
-            '#0100420432V#172F<FIXME>これが魔眼……！',
+            '#0100420432V#172F这就是魔眼……！',
             TxtCtl.Enter,
         ),
     )
 
     CloseMessageWindow()
 
-    # Jump('loc_58E5')
+    Jump('loc_58E5')
 
     def _loc_5836(): pass
 
@@ -6034,7 +6034,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_58E5')
+    Jump('loc_58E5')
 
     def _loc_586B(): pass
 
@@ -6061,7 +6061,7 @@ def func_07_1217():
 
     CloseMessageWindow()
 
-    # Jump('loc_58E5')
+    Jump('loc_58E5')
 
     def _loc_58AA(): pass
 
@@ -6871,7 +6871,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    # Jump('loc_6611')
+    Jump('loc_6611')
 
     def _loc_645C(): pass
 
@@ -6898,7 +6898,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    # Jump('loc_6611')
+    Jump('loc_6611')
 
     def _loc_6491(): pass
 
@@ -6925,7 +6925,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    # Jump('loc_6611')
+    Jump('loc_6611')
 
     def _loc_64CA(): pass
 
@@ -6952,7 +6952,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    # Jump('loc_6611')
+    Jump('loc_6611')
 
     def _loc_64FF(): pass
 
@@ -6979,7 +6979,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    # Jump('loc_6611')
+    Jump('loc_6611')
 
     def _loc_6534(): pass
 
@@ -7006,7 +7006,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    # Jump('loc_6611')
+    Jump('loc_6611')
 
     def _loc_6569(): pass
 
@@ -7033,7 +7033,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    # Jump('loc_6611')
+    Jump('loc_6611')
 
     def _loc_65A3(): pass
 
@@ -7060,7 +7060,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    # Jump('loc_6611')
+    Jump('loc_6611')
 
     def _loc_65D9(): pass
 
@@ -7080,7 +7080,7 @@ def func_08_5D1F():
     ChrTalk(
         0x010B,
         (
-            '#0090420470V#216F<FIXME>ああっ……！',
+            '#0090420470V#216F啊啊……！',
             TxtCtl.Enter,
         ),
     )
@@ -7363,7 +7363,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    # Jump('loc_6CDB')
+    Jump('loc_6CDB')
 
     def _loc_6C22(): pass
 
@@ -7390,7 +7390,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    # Jump('loc_6CDB')
+    Jump('loc_6CDB')
 
     def _loc_6C5E(): pass
 
@@ -7417,7 +7417,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    # Jump('loc_6CDB')
+    Jump('loc_6CDB')
 
     def _loc_6C9F(): pass
 
@@ -7462,7 +7462,7 @@ def func_08_5D1F():
     ChrTalk(
         0x010F,
         (
-            '#0100420498V#177F<FIXME>ヨシュア君っ……！',
+            '#0100420498V#177F约修亚君……！',
             TxtCtl.Enter,
         ),
     )
@@ -7487,14 +7487,14 @@ def func_08_5D1F():
     ChrTalk(
         0x0110,
         (
-            '#0110420499V#271F<FIXME>クッ……目を覚ませ！！',
+            '#0110420499V#271F可恶……快醒过来！！',
             TxtCtl.Enter,
         ),
     )
 
     CloseMessageWindow()
 
-    # Jump('loc_6E2D')
+    Jump('loc_6E2D')
 
     def _loc_6D5E(): pass
 
@@ -7521,7 +7521,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    # Jump('loc_6E2D')
+    Jump('loc_6E2D')
 
     def _loc_6D9B(): pass
 
@@ -7548,7 +7548,7 @@ def func_08_5D1F():
 
     CloseMessageWindow()
 
-    # Jump('loc_6E2D')
+    Jump('loc_6E2D')
 
     def _loc_6DE2(): pass
 
@@ -7917,7 +7917,7 @@ def func_08_5D1F():
     ChrTalk(
         0x0110,
         (
-            '#0110420510V#273F<FIXME>む……',
+            '#0110420510V#273F嗯……',
             TxtCtl.Enter,
         ),
     )
@@ -7998,7 +7998,7 @@ def func_08_5D1F():
     ChrTalk(
         0x010F,
         (
-            '#0100420513V#173F<FIXME>あ……',
+            '#0100420513V#173F啊……',
             TxtCtl.Enter,
         ),
     )
@@ -8214,7 +8214,7 @@ def func_08_5D1F():
     ChrTalk(
         0x010F,
         (
-            '#0100420521V#171F<FIXME>呪縛が……解けたのか……',
+            '#0100420521V#171F缚咒……解开了吗……',
             TxtCtl.Enter,
         ),
     )
@@ -8295,7 +8295,7 @@ def func_08_5D1F():
     ChrTalk(
         0x0110,
         (
-            '#0110420524V#275F<FIXME>呪縛が解けたか……',
+            '#0110420524V#275F缚咒解开了……',
             TxtCtl.Enter,
         ),
     )
@@ -9004,8 +9004,8 @@ def func_08_5D1F():
     ChrTalk(
         0x010F,
         (
-            '#0100420574V#171F<FIXME>ふふ……\n',
-            'さすがカシウス准将……',
+            '#0100420574V#171F呵呵……\n',
+            '不愧是卡西乌斯准将……',
             TxtCtl.Enter,
         ),
     )
@@ -9058,8 +9058,8 @@ def func_08_5D1F():
     ChrTalk(
         0x0110,
         (
-            '#0110420576V#275F<FIXME>フフ、恐れ入ったな……\n',
-            '……見事な先読みだ。',
+            '#0110420576V#275F哼，真是让我佩服……\n',
+            '……精准的预判啊。',
             TxtCtl.Enter,
         ),
     )
@@ -9699,8 +9699,8 @@ def func_09_9042():
     ChrTalk(
         0x0110,
         (
-            '#0110420613V#277F#5P<FIXME>フン……\n',
-            'どうやら余裕が無いようだな。',
+            '#0110420613V#277F#5P哼……\n',
+            '看来你现在没什么余裕了吧。',
             TxtCtl.Enter,
         ),
     )
@@ -9783,8 +9783,8 @@ def func_09_9042():
     ChrTalk(
         0x010F,
         (
-            '#0100420616V#170F<FIXME>どうやら……\n',
-            '余裕が無いようだが？',
+            '#0100420616V#170F看来……\n',
+            '你似乎已经没什么余裕了吧？',
             TxtCtl.Enter,
         ),
     )
@@ -10351,8 +10351,8 @@ def func_09_9042():
     ChrTalk(
         0x010F,
         (
-            '#0100420634V#172F<FIXME>まさか……\n',
-            '《環》と融合している……！？',
+            '#0100420634V#172F难道说……\n',
+            '正在和『环』融合……！？',
             TxtCtl.Enter,
         ),
     )
@@ -10463,8 +10463,8 @@ def func_09_9042():
     ChrTalk(
         0x0110,
         (
-            '#0110420638V#273F<FIXME>まさか……\n',
-            '《環》と融合しているのか……！',
+            '#0110420638V#273F难道……\n',
+            '和『环』融合了吗……！',
             TxtCtl.Enter,
         ),
     )
@@ -10714,7 +10714,7 @@ def func_09_9042():
     ChrTalk(
         0x0110,
         (
-            '#0110420642V#270F<FIXME>クッ………！？',
+            '#0110420642V#270F可恶………！？',
             TxtCtl.Enter,
         ),
     )
@@ -10876,7 +10876,7 @@ def func_09_9042():
     ChrTalk(
         0x010F,
         (
-            '#0100420648V#173F<FIXME>ば、馬鹿な……！？',
+            '#0100420648V#173F不、不会吧……！？',
             TxtCtl.Enter,
         ),
     )
@@ -11246,7 +11246,7 @@ def func_0A_A622():
     ChrTalk(
         0x010F,
         (
-            '#0100420665V#175F#5P<FIXME>……くッ………！',
+            '#0100420665V#175F#5P……可恶………！',
             TxtCtl.Enter,
         ),
     )
@@ -11375,8 +11375,8 @@ def func_0A_A622():
     ChrTalk(
         0x0110,
         (
-            '#0110420670V#271F#5P<FIXME>クッ……\n',
-            '舐めた真似を……！',
+            '#0110420670V#271F#5P可恶……\n',
+            '竟敢如此轻视我……！',
             TxtCtl.Enter,
         ),
     )
@@ -12053,8 +12053,8 @@ def func_0A_A622():
     ChrTalk(
         0x010F,
         (
-            '#0100420711V#177F#1P<FIXME>き、貴様のような者のために\n',
-            'どれだけの人々が……ッ！！',
+            '#0100420711V#177F#1P像你这种家伙，害得多少\n',
+            '无辜的人……！！',
             TxtCtl.Enter,
         ),
     )
@@ -12182,8 +12182,8 @@ def func_0A_A622():
     ChrTalk(
         0x0110,
         (
-            '#0110420716V#276F#1P<FIXME>貴様……\n',
-            'まともな死に方はできんぞ……',
+            '#0110420716V#276F#1P你这家伙……\n',
+            '不会有好下场的……',
             TxtCtl.Enter,
         ),
     )
@@ -12812,7 +12812,7 @@ def func_0A_A622():
     ChrTalk(
         0x0110,
         (
-            '#0110420745V#271F<FIXME>それはこちらの台詞だ……！',
+            '#0110420745V#271F那是我们的台词……！',
             TxtCtl.Enter,
         ),
     )
@@ -12974,7 +12974,7 @@ def func_0A_A622():
     ChrTalk(
         0x010F,
         (
-            '#0100420751V#177F<FIXME>それはこちらの台詞だ……！',
+            '#0100420751V#177F那是我们的台词……！',
             TxtCtl.Enter,
         ),
     )
