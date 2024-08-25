@@ -1014,7 +1014,11 @@ def func_04_698():
 
     Talk(
         (
-            '#2C#21I得到了魔兽手册#0C。',
+            (TxtCtl.SetColor, 0x0),
+            '得到了',
+            (TxtCtl.Item, ItemTable['魔兽手册']),
+            (TxtCtl.SetColor, 0x0),
+            '。',
             TxtCtl.Enter,
         ),
     )
