@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -1010,7 +1010,7 @@ def func_04_C0E():
     ChrTalk(
         0x0110,
         (
-            '#0110420763V#273F<FIXME>……こ、これは…………',
+            '#0110420763V#273F……这、这是…………',
             TxtCtl.Enter,
         ),
     )

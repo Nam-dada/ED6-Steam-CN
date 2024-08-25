@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -1882,7 +1882,7 @@ def func_04_C1F():
             TxtCtl.ShowAll,
             0x18,
             (TxtCtl.SetColor, 0x5),
-            '<FIXME>どの武器を作成しますか？',
+            '要制作哪一种武器？',
             TxtCtl.Enter,
         ),
     )
@@ -1911,15 +1911,15 @@ def func_04_C1F():
         50,
         0,
         (
-            TXT(0x00, '<FIXME>棒術具『麒麟具』\n'),
-            TXT(0x01, '双剣  『鳳凰剣（鳳·凰）』\n'),
+            TXT(0x00, '棒    『麒麟具』\n'),
+            TXT(0x01, '双剑  『凤凰剑（凤·凰）』\n'),
             TXT(0x02, '鞭    『天狼鞭』\n'),
-            TXT(0x03, '導力銃『霊銃「久遠」』\n'),
-            TXT(0x04, '片手剣『月読』\n'),
-            TXT(0x05, '大剣  『奇剣「鬼喰い」』\n'),
-            TXT(0x06, '導力砲『九龍砲』\n'),
-            TXT(0x07, '手甲  『千手観音』\n'),
-            TXT(0x08, '自動弓『破弓「綺羅星」』\n'),
+            TXT(0x03, '导力枪『灵枪「久远」』\n'),
+            TXT(0x04, '刺剑  『月读』\n'),
+            TXT(0x05, '大剑  『奇剑「噬鬼」』\n'),
+            TXT(0x06, '导力砲『九龙砲』\n'),
+            TXT(0x07, '手甲  『千手观音』\n'),
+            TXT(0x08, '自动弓『破弓「绮罗星」』\n'),
             TXT(0x09, '【放弃】\n'),
         ),
     )
@@ -2149,7 +2149,7 @@ def func_04_C1F():
     ChrTalk(
         0x010F,
         (
-            '#0100391057V#179F<FIXME>……宜しくお願いします。',
+            '#0100391057V#179F……请多关照。',
             TxtCtl.Enter,
         ),
     )
@@ -2159,7 +2159,7 @@ def func_04_C1F():
     ChrTalk(
         0x0008,
         (
-            '#0540391058V#100F<FIXME>ほっほ、任せておけい。',
+            '#0540391058V#100F呵呵，交给我吧。',
             TxtCtl.Enter,
         ),
     )
@@ -2237,6 +2237,7 @@ def func_04_C1F():
     )
 
     CloseMessageWindow()
+
     def _loc_12E5(): pass
 
     label('loc_12E5')
@@ -2678,6 +2679,7 @@ def func_04_C1F():
     )
 
     CloseMessageWindow()
+
     def _loc_1C2E(): pass
 
     label('loc_1C2E')
@@ -2910,6 +2912,7 @@ def func_04_C1F():
     )
 
     CloseMessageWindow()
+
     def _loc_20B8(): pass
 
     label('loc_20B8')
@@ -4689,6 +4692,7 @@ def func_07_2F50():
     )
 
     CloseMessageWindow()
+
     def _loc_3E86(): pass
 
     label('loc_3E86')
@@ -5024,6 +5028,7 @@ def func_07_2F50():
     )
 
     CloseMessageWindow()
+
     def _loc_4425(): pass
 
     label('loc_4425')
@@ -7712,6 +7717,7 @@ def func_0D_726A():
     )
 
     CloseMessageWindow()
+
     def _loc_73CE(): pass
 
     label('loc_73CE')
@@ -12121,12 +12127,12 @@ def func_24_A4F9():
     ChrTalk(
         0x0101,
         (
-            '#0010391420V#1015F<FIXME>ゼムリアストーン……\n',
-            'それなら確か持ってるはずよ。',
+            '#0010391420V#1015F塞姆里亚石……\n',
+            '那东西我应该有的。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0010391421V#1001F……このちょっと\n',
-            '変わった金属のことでしょ。',
+            '#0010391421V#1001F……你说的是这种\n',
+            '有点特别的金属吧。',
             TxtCtl.Enter,
         ),
     )
@@ -12189,7 +12195,7 @@ def func_24_A4F9():
     ChrTalk(
         0x0008,
         (
-            '#0540391427V#100F其实这里记录了两种武器\n',
+            '#0540391427V#100F其实这里记录了九种武器\n',
             '的制造方法……',
             TxtCtl.Enter,
             TxtCtl.Clear,
@@ -12236,7 +12242,7 @@ def func_24_A4F9():
             TxtCtl.ShowAll,
             0x18,
             (TxtCtl.SetColor, 0x5),
-            '<FIXME>どの武器を作成しますか？',
+            '要制作哪一种武器？',
             TxtCtl.Enter,
         ),
     )
@@ -12265,15 +12271,15 @@ def func_24_A4F9():
         50,
         0,
         (
-            TXT(0x00, '<FIXME>棒術具『麒麟具』\n'),
-            TXT(0x01, '双剣  『鳳凰剣（鳳·凰）』\n'),
+            TXT(0x00, '棒    『麒麟具』\n'),
+            TXT(0x01, '双剑  『凤凰剑（凤·凰）』\n'),
             TXT(0x02, '鞭    『天狼鞭』\n'),
-            TXT(0x03, '導力銃『霊銃「久遠」』\n'),
-            TXT(0x04, '片手剣『月読』\n'),
-            TXT(0x05, '大剣  『奇剣「鬼喰い」』\n'),
-            TXT(0x06, '導力砲『九龍砲』\n'),
-            TXT(0x07, '手甲  『千手観音』\n'),
-            TXT(0x08, '自動弓『破弓「綺羅星」』\n'),
+            TXT(0x03, '导力枪『灵枪「久远」』\n'),
+            TXT(0x04, '刺剑  『月读』\n'),
+            TXT(0x05, '大剑  『奇剑「噬鬼」』\n'),
+            TXT(0x06, '导力砲『九龙砲』\n'),
+            TXT(0x07, '手甲  『千手观音』\n'),
+            TXT(0x08, '自动弓『破弓「绮罗星」』\n'),
             TXT(0x09, '【放弃】\n'),
         ),
     )
@@ -12326,8 +12332,8 @@ def func_25_AD29():
     ChrTalk(
         0x0008,
         (
-            '#0540391454V#100F<FIXME>うむ、判ったぞい。\n',
-            'すぐに取りかかるとしよう。',
+            '#0540391454V#100F嗯，我知道了。\n',
+            '我现在立刻开始制作。',
             TxtCtl.Enter,
         ),
     )

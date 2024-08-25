@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -1281,6 +1281,7 @@ def func_04_5FB():
     )
 
     CloseMessageWindow()
+
     def _loc_F36(): pass
 
     label('loc_F36')
@@ -9107,6 +9108,7 @@ def func_19_6C51():
     FadeOut(1000, 0, -1)
     OP_0D()
     ClearScenaFlags(ScenaFlag(0x0000, 4, 0x4))
+
     def _loc_85C2(): pass
 
     label('loc_85C2')
@@ -9127,9 +9129,9 @@ def func_19_6C51():
             TxtCtl.ShowAll,
             0x18,
             (TxtCtl.SetColor, 0x5),
-            '<FIXME>※パーティの再編成を行います。\n',
-            '　パーティを入れ替えて、必要な装備の変更を行い、\n',
-            '　確定したら、【先に進める】を選択してください。',
+            '※进行队伍的重新编组。\n',
+            '　替换队伍成员，调整必要的装备，\n',
+            '　确认完毕后，请选择【继续前进】。',
             (TxtCtl.SetColor, 0x0),
             TxtCtl.Enter,
         ),
@@ -9250,7 +9252,7 @@ def func_19_6C51():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '<FIXME>※パーティの編成を行ってから選択してください。',
+            '※请先进行队伍编成后再选择。',
             (TxtCtl.SetColor, 0x0),
             TxtCtl.Enter,
         ),
@@ -9277,7 +9279,7 @@ def func_19_6C51():
             TxtCtl.ShowAll,
             0x18,
             (TxtCtl.SetColor, 0x5),
-            '<FIXME>※イベントを先に進めても、よろしいですか？',
+            '※是否确定要继续推进事件？',
             (TxtCtl.SetColor, 0x0),
             TxtCtl.Enter,
         ),
@@ -9338,7 +9340,7 @@ def func_19_6C51():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '<FIXME>※パーティの編成を行ってから選択してください。',
+            '※请先进行队伍编成后再选择。',
             (TxtCtl.SetColor, 0x0),
             TxtCtl.Enter,
         ),

@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -331,11 +331,11 @@ def func_02_277():
     ChrTalk(
         0x0110,
         (
-            '#0110420162V#270F<FIXME>……圧倒的な力が\n',
-            '奥の通路から流れている……',
+            '#0110420162V#270F……一种压倒性的\n',
+            '力量从里面涌出来……',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0110420163Vどうやら間違いないようだな……',
+            '#0110420163V看样子是没错了……',
             TxtCtl.Enter,
         ),
     )
@@ -548,11 +548,11 @@ def func_02_277():
     ChrTalk(
         0x010F,
         (
-            '#0100420176V#176F<FIXME>……圧倒的な力が\n',
-            '奥の通路から流れてきている……',
+            '#0100420176V#176F……一种压倒性的\n',
+            '力量从里面涌出来……',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100420177V#178Fどうやら間違いなさそうだな……',
+            '#0100420177V#178F看样子是没错了……',
             TxtCtl.Enter,
         ),
     )
@@ -665,8 +665,8 @@ def func_02_277():
     ChrTalk(
         0x010F,
         (
-            '#0100420182V#178F<FIXME>つまり《輝く環》が\n',
-            'この先にあるということか……',
+            '#0100420182V#178F也就是说，\n',
+            '『辉之环』就在前面……',
             TxtCtl.Enter,
         ),
     )
@@ -833,9 +833,9 @@ def func_02_277():
     ChrTalk(
         0x0104,
         (
-            '#0040420188V#032F<FIXME>つまり、ヨシュア君と\n',
-            '《輝く環》はこの先に……\n',
-            '……ということだね？',
+            '#0040420188V#032F也就是说，约修亚君\n',
+            '和『辉之环』都在前方……\n',
+            '……是这样吧？',
             TxtCtl.Enter,
         ),
     )
@@ -1046,7 +1046,7 @@ def func_02_277():
     ChrTalk(
         0x0110,
         (
-            '#0110420200V#277F<FIXME>元よりそのつもりだ！',
+            '#0110420200V#277F本来就是打算这么做的！',
             TxtCtl.Enter,
         ),
     )
@@ -1096,7 +1096,7 @@ def func_02_277():
     ChrTalk(
         0x010F,
         (
-            '#0100420202V#171F<FIXME>微力を尽くさせてもらおう！',
+            '#0100420202V#171F让我尽我所能帮忙吧！',
             TxtCtl.Enter,
         ),
     )

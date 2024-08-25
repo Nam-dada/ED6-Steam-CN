@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -522,8 +522,8 @@ def func_0A_506():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '<FIXME>　　 売り家　　\n',
-            '※飲食店営業も可',
+            '　　 出售的房屋　　\n',
+            '※可用于餐饮店营业',
             TxtCtl.Enter,
         ),
     )
@@ -917,6 +917,7 @@ def func_0E_56C():
     Sleep(50)
 
     EventEnd(0x04)
+
     def _loc_A06(): pass
 
     label('loc_A06')
@@ -1053,6 +1054,7 @@ def func_0E_56C():
     )
 
     CloseMessageWindow()
+
     def _loc_B4A(): pass
 
     label('loc_B4A')
@@ -1061,6 +1063,7 @@ def func_0E_56C():
     Sleep(50)
 
     EventEnd(0x04)
+
     def _loc_B65(): pass
 
     label('loc_B65')
@@ -1205,6 +1208,7 @@ def func_0F_B66():
     )
 
     CloseMessageWindow()
+
     def _loc_CAF(): pass
 
     label('loc_CAF')
@@ -1346,6 +1350,7 @@ def func_0F_B66():
     )
 
     CloseMessageWindow()
+
     def _loc_E0E(): pass
 
     label('loc_E0E')
@@ -1354,6 +1359,7 @@ def func_0F_B66():
     Sleep(50)
 
     EventEnd(0x04)
+
     def _loc_E29(): pass
 
     label('loc_E29')

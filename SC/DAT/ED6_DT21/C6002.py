@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -409,11 +409,11 @@ def func_02_220():
     ChrTalk(
         0x0102,
         (
-            '#0020390962V#1040F#5P<FIXME>どうやらこれが\n',
-            '《レールハイロゥ》みたいだね。',
+            '#0020390962V#1040F#5P看来这就是\n',
+            '『光环轨道』了吧。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0020390963Vどういう仕組みなんだろう……',
+            '#0020390963V这是怎么回事呢……',
             TxtCtl.Enter,
         ),
     )
@@ -440,12 +440,12 @@ def func_02_220():
     ChrTalk(
         0x010F,
         (
-            '#0100390964V#173F<FIXME>どうやらこれが\n',
-            '《レールハイロゥ》のようだな。',
+            '#0100390964V#173F看来这就是\n',
+            '『光环轨道』啊。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100390965V#178Fしかし一体\n',
-            'どういう仕組みなのだろうか……',
+            '#0100390965V#178F不过这\n',
+            '到底是什么原理呢……',
             TxtCtl.Enter,
         ),
     )
@@ -660,11 +660,11 @@ def func_02_220():
     ChrTalk(
         0x010B,
         (
-            '#0090390978V#216F#5P<FIXME>ど、どうやらこれが\n',
-            '《レールハイロゥ》みたいだけど……',
+            '#0090390978V#216F#5P这、这好像就是\n',
+            '『光环轨道』了吧……',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0090390979V一体どうなってんの？？',
+            '#0090390979V到底是怎么回事？？',
             TxtCtl.Enter,
         ),
     )
@@ -689,12 +689,12 @@ def func_02_220():
     ChrTalk(
         0x0110,
         (
-            '#0110390980V#278F<FIXME>……帝国を走る鉄道と\n',
-            '雰囲気は似ているな。',
+            '#0110390980V#278F……感觉和帝国的铁路\n',
+            '有点相似啊。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0110390981V#277F透明なレールというのが\n',
-            'やや落ち着かんが……',
+            '#0110390981V#277F不过这透明的轨道\n',
+            '让人有点不安……',
             TxtCtl.Enter,
         ),
     )
@@ -945,12 +945,12 @@ def func_02_220():
     ChrTalk(
         0x010F,
         (
-            '#0100390996V#176F<FIXME>帝国で運用されている\n',
-            '鉄道に似ているようだな。',
+            '#0100390996V#176F看起来这和\n',
+            '帝国运行的铁路有点相似。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100390997V#178F透明なレールというのは\n',
-            'さすがに落ち着かないが……',
+            '#0100390997V#178F不过这透明的轨道\n',
+            '确实让人有点不安……',
             TxtCtl.Enter,
         ),
     )
@@ -1763,6 +1763,7 @@ def func_07_1718():
     Sleep(50)
 
     EventEnd(0x04)
+
     def _loc_1B67(): pass
 
     label('loc_1B67')
@@ -2165,6 +2166,7 @@ def func_07_1718():
 
     OP_5F(0x0000)
     EventEnd(0x00)
+
     def _loc_1E41(): pass
 
     label('loc_1E41')
@@ -2649,8 +2651,8 @@ def func_0A_1F8E():
     ChrTalk(
         0x010F,
         (
-            '#0100391027V#171F<FIXME>ふふ……\n',
-            'それもそうだな。',
+            '#0100391027V#171F呵呵……\n',
+            '确实如此。',
             TxtCtl.Enter,
         ),
     )
@@ -2704,8 +2706,8 @@ def func_0A_1F8E():
     ChrTalk(
         0x0106,
         (
-            '#0050391029V#051F<FIXME>へっ……\n',
-            'まあ確かにな。',
+            '#0050391029V#051F哼……\n',
+            '说的也是。',
             TxtCtl.Enter,
         ),
     )
@@ -2730,12 +2732,12 @@ def func_0A_1F8E():
     ChrTalk(
         0x0110,
         (
-            '#0110391030V#278F<FIXME>だが、これのおかげで\n',
-            '探索が楽になりそうだ。',
+            '#0110391030V#278F不过，多亏有了这个，\n',
+            '探索应该会轻松不少。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0110391031V#277F新しい駅を見つけたら\n',
-            'すぐに使えるようにすべきだろう。',
+            '#0110391031V#277F找到新的车站后，\n',
+            '我们应该立即设法让它投入使用。',
             TxtCtl.Enter,
         ),
     )
@@ -2826,12 +2828,12 @@ def func_0A_1F8E():
     ChrTalk(
         0x010F,
         (
-            '#0100391036V#179F<FIXME>だが、これのおかげで\n',
-            'ずいぶん探索が楽になりそうだ。',
+            '#0100391036V#179F不过，有了这个，\n',
+            '探索应该会轻松很多。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100391037V#170F新しい駅を発見したら\n',
-            'すぐに使えるようにしてしまおう。',
+            '#0100391037V#170F发现新车站后，\n',
+            '马上就把它设置好，随时可以使用。',
             TxtCtl.Enter,
         ),
     )
@@ -3390,6 +3392,7 @@ def func_0F_2C3C():
     )
 
     CloseMessageWindow()
+
     def _loc_304A(): pass
 
     label('loc_304A')
@@ -3819,6 +3822,7 @@ def func_0F_2C3C():
     )
 
     CloseMessageWindow()
+
     def _loc_395B(): pass
 
     label('loc_395B')

@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -2233,9 +2233,9 @@ def func_03_1401():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '　　　　　　 ～　<FIXME>クリアデータのセーブについて　～\n',
-            '　　  クリアデータを作成し、タイトル画面からロードすると\n',
-            '　　  各種データを引き継いだまま２周目を開始できます。',
+            '　　　　　　 ～　关于保存通关数据　～\n',
+            '　　  保存通关数据后，从标题画面加载该数据，\n',
+            '　　  即可在继承各类数据的情况下开始第二周目。',
             TxtCtl.ShowAll,
             0x18,
             TxtCtl.Enter,

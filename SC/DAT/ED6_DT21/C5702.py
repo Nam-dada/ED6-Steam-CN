@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -2217,6 +2217,7 @@ def func_02_461():
     CloseMessageWindow()
     SetScenaFlags(ScenaFlag(0x0444, 1, 0x2221))
     OP_28(0x009E, 0x01, 0x0008)
+
     def _loc_1D0E(): pass
 
     label('loc_1D0E')
@@ -2581,13 +2582,13 @@ def func_03_1DB0():
     ChrTalk(
         0x0102,
         (
-            '#0020400144V#1042F<FIXME>僕たちが一度潜入したことで、\n',
-            'この先の警戒は相当\n',
-            '厳しくなっているはずです。',
+            '#0020400144V#1042F由于我们之前潜入过，\n',
+            '这前方的戒备\n',
+            '应该已经相当严密了。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0020400145V特に用もありませんし、\n',
-            'ここは引き返しましょう。',
+            '#0020400145V既然没什么特别的事情，\n',
+            '我们还是撤退吧。',
             TxtCtl.Enter,
         ),
     )
@@ -2597,16 +2598,16 @@ def func_03_1DB0():
     ChrTalk(
         0x010F,
         (
-            '#0100400146V#176F<FIXME>……確かにそうだな。',
+            '#0100400146V#176F……确实如此。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100400147V#178F王都を襲撃した連中……\n',
-            '余裕があれば全員捕縛して\n',
-            'やりたいところだが……',
+            '#0100400147V#178F袭击王都的那帮家伙……\n',
+            '如果有余力的话，真想把\n',
+            '他们全都抓起来……',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0100400148V今は《中枢塔》の探索に\n',
-            '専念するとしよう。',
+            '#0100400148V不过现在，还是专心\n',
+            '探索『中枢塔』吧。',
             TxtCtl.Enter,
         ),
     )
@@ -2622,7 +2623,7 @@ def func_03_1DB0():
     ChrTalk(
         0x0110,
         (
-            '#0110400149V#270F<FIXME>《結社》の船か……',
+            '#0110400149V#270F那是『结社』的船吗……',
             TxtCtl.Enter,
         ),
     )
@@ -2632,13 +2633,13 @@ def func_03_1DB0():
     ChrTalk(
         0x0102,
         (
-            '#0020400144V#1042F<FIXME>僕たちが一度潜入したことで、\n',
-            'この先の警戒は相当\n',
-            '厳しくなっているはずです。',
+            '#0020400144V#1042F由于我们之前潜入过，\n',
+            '这前方的戒备\n',
+            '应该已经相当严密了。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0020400145V特に用もありませんし、\n',
-            'ここは引き返しましょう。',
+            '#0020400145V既然没什么特别的事情，\n',
+            '我们还是撤退吧。',
             TxtCtl.Enter,
         ),
     )
@@ -2648,7 +2649,7 @@ def func_03_1DB0():
     ChrTalk(
         0x0110,
         (
-            '#0110400152V#272F<FIXME>……心得た。',
+            '#0110400152V#272F……明白了。',
             TxtCtl.Enter,
         ),
     )
@@ -3062,6 +3063,7 @@ def func_03_1DB0():
     OP_0D()
     MapSetFlags(0x00000001)
     EventEnd(0x02)
+
     def _loc_2D74(): pass
 
     label('loc_2D74')

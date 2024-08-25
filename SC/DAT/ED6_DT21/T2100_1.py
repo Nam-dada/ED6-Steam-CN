@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -264,6 +264,7 @@ def Init():
     )
 
     CloseMessageWindow()
+
     def _loc_21E(): pass
 
     label('loc_21E')
@@ -974,7 +975,7 @@ def func_01_8F4():
     Talk(
         (
             0x18,
-            '<FIXME>何を質問しますか？',
+            '有什么问题要问吗？',
             TxtCtl.Enter,
         ),
     )
@@ -3342,6 +3343,7 @@ def func_03_1F17():
     OP_56(0x00)
     FadeIn(300, 0)
     SetMessageWindowPos(72, 320, 56, 3)
+
     def _loc_2A15(): pass
 
     label('loc_2A15')

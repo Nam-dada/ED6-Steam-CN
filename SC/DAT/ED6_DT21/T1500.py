@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -2237,7 +2237,7 @@ def func_06_E0C():
     ChrTalk(
         0x00FE,
         (
-            '<FIXME>ふむ、お前たちか……',
+            '嗯，是你们啊……',
             TxtCtl.Enter,
         ),
     )
@@ -3089,6 +3089,7 @@ def func_06_E0C():
     )
 
     CloseMessageWindow()
+
     def _loc_1F06(): pass
 
     label('loc_1F06')
@@ -3921,6 +3922,7 @@ def func_08_2677():
     )
 
     CloseMessageWindow()
+
     def _loc_28CF(): pass
 
     label('loc_28CF')

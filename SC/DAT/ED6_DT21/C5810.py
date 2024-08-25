@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -608,6 +608,7 @@ def func_02_3E2():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_4F5(): pass
 
     label('loc_4F5')
@@ -874,6 +875,7 @@ def func_05_6E8():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_7F6(): pass
 
     label('loc_7F6')
@@ -989,6 +991,7 @@ def func_06_804():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_912(): pass
 
     label('loc_912')
@@ -1104,6 +1107,7 @@ def func_07_920():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_A2E(): pass
 
     label('loc_A2E')
@@ -3751,7 +3755,7 @@ def func_0C_3175():
 
     OP_CC(0x00, 0x00, 0x0028, 0x005A, 0x01)
     OP_CC(0x01, 0x00, '【确认新食谱】')
-    OP_CC(0x01, 0x00, '<FIXME>【クリスタルの照合】')
+    OP_CC(0x01, 0x00, '【比对水晶】')
     OP_CC(0x01, 0x00, '【放弃使用】')
     OP_CC(0x02, 0x00)
     MenuEnd(0x0000)
@@ -4015,6 +4019,7 @@ def func_0C_3175():
     )
 
     CloseMessageWindow()
+
     def _loc_35A5(): pass
 
     label('loc_35A5')
@@ -4081,7 +4086,7 @@ def func_0C_3175():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '#1S<FIXME>照合を開始します…………………',
+            '#1S开始进行认证…………………',
             TxtCtl.Enter,
         ),
     )
@@ -4103,7 +4108,7 @@ def func_0C_3175():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '#1S<FIXME>………特定の周波パターンを確認。',
+            '#1S………已确认特定的波动模式。',
             TxtCtl.Enter,
         ),
     )
@@ -4114,7 +4119,7 @@ def func_0C_3175():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '#1S<FIXME>登録のあった受託者と認めます。',
+            '#1S认定为已注册的委托人。',
             TxtCtl.Enter,
         ),
     )
@@ -4125,7 +4130,7 @@ def func_0C_3175():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '#1S<FIXME>保管物＃W-8834-0034の転送を開始。',
+            '#1S开始传送保管物＃W-8834-0034。',
             TxtCtl.Enter,
         ),
     )
@@ -4136,7 +4141,7 @@ def func_0C_3175():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '#1S<FIXME>データ受信中…………２０％………',
+            '#1S正在接收数据…………２０％………',
             TxtCtl.Enter,
         ),
     )
@@ -4158,7 +4163,7 @@ def func_0C_3175():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '#1S……８０％……………転送完了！',
+            '#1S……８０％……………传送完成！',
             TxtCtl.Enter,
         ),
     )
@@ -4178,7 +4183,7 @@ def func_0C_3175():
     Talk(
         (
             (TxtCtl.SetColor, 0x0),
-            '<FIXME>#1047iを手に入れた。',
+            '获得了#1047i。',
             TxtCtl.Enter,
         ),
     )
@@ -4192,14 +4197,14 @@ def func_0C_3175():
     ChrTalk(
         0x0101,
         (
-            '#0010391397V#1004F<FIXME>こ、これって\n',
-            'あたしたちが持ってるのと\n',
-            '同じ鉱石よね？',
+            '#0010391397V#1004F这、这不是\n',
+            '和我们之前\n',
+            '拿到的矿石一样吗？',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0010391398V#1015Fさっきのクリスタルと同じで\n',
-            'またどこかから\n',
-            '送られてきたみたいだけど……',
+            '#0010391398V#1015F好像是和\n',
+            '刚才的晶石一样，\n',
+            '但又是从某处传送过来的……',
             TxtCtl.Enter,
         ),
     )
@@ -4209,11 +4214,11 @@ def func_0C_3175():
     ChrTalk(
         0x0102,
         (
-            '#0020391399V#1035F<FIXME>うん……',
+            '#0020391399V#1035F嗯……',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0020391400V#1040F詳しいことは判らないけど\n',
-            'どうやら、このクリスタルが鍵になっていたようだね。',
+            '#0020391400V#1040F虽然具体情况不清楚，\n',
+            '但看来这个晶石是关键所在呢。',
             TxtCtl.Enter,
         ),
     )
@@ -4230,7 +4235,7 @@ def func_0C_3175():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '#1S<FIXME>照合を開始します………………',
+            '#1S开始进行认证………………',
             TxtCtl.Enter,
         ),
     )
@@ -4252,7 +4257,7 @@ def func_0C_3175():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '#1S………………データ検知できず。',
+            '#1S………………无法检测到数据。',
             TxtCtl.Enter,
         ),
     )
@@ -4263,8 +4268,8 @@ def func_0C_3175():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '#1S<FIXME>クリスタルを確認して、\n',
-            '再試行してください。',
+            '#1S请确认晶石后\n',
+            '重新尝试。',
             TxtCtl.Enter,
         ),
     )

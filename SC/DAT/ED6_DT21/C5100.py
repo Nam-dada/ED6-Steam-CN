@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -322,6 +322,7 @@ def func_02_263():
 @scena.Code('func_03_279')
 def func_03_279():
     OP_C4(0x00, 0x00000020)
+
     def _loc_27F(): pass
 
     label('loc_27F')
@@ -1102,8 +1103,8 @@ def func_09_6B9():
             '做好万全的准备才是。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0020401045V<FIXME>#1040Fユリア大尉にも探索状況を\n',
-            '報告しておきたいしね。',
+            '#0020401045V#1040F我也想向尤莉亚上尉\n',
+            '汇报一下探索的情况。',
             TxtCtl.Enter,
         ),
     )
@@ -1809,6 +1810,7 @@ def func_10_1569():
 
     CloseMessageWindow()
     SetScenaFlags(ScenaFlag(0x0000, 0, 0x0))
+
     def _loc_16FF(): pass
 
     label('loc_16FF')
