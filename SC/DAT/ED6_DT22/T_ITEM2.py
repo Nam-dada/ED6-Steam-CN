@@ -2639,7 +2639,7 @@ entries = [
     Item2TableData(
         __index = 0x0000020F,
         name    = '魔兽手册',
-        desc    = '遭遇した敵の情報を記録しておくための手帳。',
+        desc    = '用来记录遭遇过的敌人情报的手册。',
     ),
     Item2TableData(
         __index = 0x00000210,
