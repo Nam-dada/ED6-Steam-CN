@@ -3086,7 +3086,7 @@ def func_03_1122():
             (TxtCtl.SetColor, 0x5),
             '提妲学会了新Ｓ战技\n',
             (TxtCtl.SetColor, 0x2),
-            '『炮射冲击Ⅱ』',
+            '『炮射冲击Ｆ』',
             (TxtCtl.SetColor, 0x5),
             '。',
             TxtCtl.Enter,
@@ -3100,7 +3100,7 @@ def func_03_1122():
     Talk(
         (
             (TxtCtl.SetColor, 0x5),
-            '要将『炮射连击Ⅱ』登记为Ｓ战技吗？',
+            '要将『炮射冲击Ｆ』登记为Ｓ战技吗？',
             0x18,
             TxtCtl.Enter,
         ),

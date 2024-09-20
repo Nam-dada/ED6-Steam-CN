@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -413,6 +413,7 @@ def func_03_299():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_3A7(): pass
 
     label('loc_3A7')
@@ -2165,7 +2166,7 @@ def func_05_1720():
             '强行将她拉入结社。',
             TxtCtl.Enter,
             TxtCtl.Clear,
-            '#0140271187V这可是『盟主』制定的`\n',
+            '#0140271187V这可是『盟主』制定的\n',
             '『噬身之蛇』规约。',
             TxtCtl.Enter,
         ),
