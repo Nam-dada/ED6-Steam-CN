@@ -2351,7 +2351,7 @@ entries = [
         effect2Param    = 0x0000,
         effect2Time     = 0x0000,
         name            = '中回复术',
-        desc            = '单体·HP3000回复\\n以治愈生命之水的力量回复范围内队友的HP3000。',
+        desc            = '单体·HP3000回复\\n以治愈生命之水的力量回复１个队友的HP3000。',
     ),
     MagicTableData(
         id              = 0x0070,

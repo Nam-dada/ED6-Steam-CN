@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -3503,7 +3503,7 @@ def func_08_2279():
     ChrTalk(
         0x0106,
         (
-            '#0050291313V#056F厄……',
+            '#0050291313V#056F呃……',
             TxtCtl.Enter,
         ),
     )
@@ -4928,6 +4928,7 @@ def func_0C_428A():
     ChrMoveToRelativeAsync(0x000A, -50, 0, 0, 300, 0x00)
     ChrMoveToRelativeAsync(0x000A, 100, 0, 0, 300, 0x00)
     ChrMoveToRelativeAsync(0x000A, -100, 0, 0, 300, 0x00)
+
     def _loc_4300(): pass
 
     label('loc_4300')
@@ -4962,6 +4963,7 @@ def func_0D_4335():
     ChrMoveToRelativeAsync(0x000B, 50, 0, 0, 300, 0x00)
     ChrMoveToRelativeAsync(0x000B, -100, 0, 0, 300, 0x00)
     ChrMoveToRelativeAsync(0x000B, 100, 0, 0, 300, 0x00)
+
     def _loc_43AB(): pass
 
     label('loc_43AB')

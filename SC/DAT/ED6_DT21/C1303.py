@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -351,6 +351,7 @@ def func_02_24C():
     CloseMessageWindow()
     OP_56(0x00)
     FadeIn(300, 0)
+
     def _loc_35A(): pass
 
     label('loc_35A')
@@ -755,6 +756,12 @@ def func_04_82F():
 
     Talk(
         (
+            (TxtCtl.SetColor, 0x0),
+            '得到了',
+            (TxtCtl.Item, ItemTable['山猫号启动钥匙']),
+            (TxtCtl.SetColor, 0x0),
+            '。',
+            TxtCtl.Enter,
         ),
     )
 

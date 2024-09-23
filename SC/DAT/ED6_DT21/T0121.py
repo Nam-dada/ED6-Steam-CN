@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r'D:\Dev\Source\Falcom\Decompiler2')
+sys.path.append(r'C:\nw_profile\IDE\pycharm\pycharmProj\Falcom\Decompiler2')
 
 from Falcom.ED62.Parser.scena_writer_helper import *
 try:
@@ -1779,6 +1779,7 @@ def func_06_9CB():
     )
 
     CloseMessageWindow()
+
     def _loc_F94(): pass
 
     label('loc_F94')
@@ -1938,6 +1939,7 @@ def func_06_9CB():
     )
 
     CloseMessageWindow()
+
     def _loc_1224(): pass
 
     label('loc_1224')
@@ -3558,6 +3560,7 @@ def func_07_1EFB():
     CloseMessageWindow()
     SetScenaFlags(ScenaFlag(0x0310, 5, 0x1885))
     SetScenaFlags(ScenaFlag(0x034A, 6, 0x1A56))
+
     def _loc_2874(): pass
 
     label('loc_2874')
@@ -3980,6 +3983,7 @@ def func_07_1EFB():
     CloseMessageWindow()
     SetScenaFlags(ScenaFlag(0x0000, 3, 0x3))
     SetScenaFlags(ScenaFlag(0x0310, 5, 0x1885))
+
     def _loc_2D68(): pass
 
     label('loc_2D68')
@@ -4635,6 +4639,7 @@ def func_07_1EFB():
     CloseMessageWindow()
     SetScenaFlags(ScenaFlag(0x0000, 3, 0x3))
     SetScenaFlags(ScenaFlag(0x0310, 5, 0x1885))
+
     def _loc_34C6(): pass
 
     label('loc_34C6')
@@ -4666,6 +4671,7 @@ def func_07_1EFB():
     )
 
     CloseMessageWindow()
+
     def _loc_3521(): pass
 
     label('loc_3521')
@@ -5087,6 +5093,7 @@ def func_07_1EFB():
 
     CloseMessageWindow()
     SetScenaFlags(ScenaFlag(0x0310, 5, 0x1885))
+
     def _loc_3AA6(): pass
 
     label('loc_3AA6')
@@ -13443,7 +13450,7 @@ def func_24_A6CC():
     ChrTalk(
         0x0101,
         (
-            '#0010291413V#1016F#6P厄…这两个人一起喝酒的话……\n',
+            '#0010291413V#1016F#6P呃…这两个人一起喝酒的话……\n',
             '怎么想也不可能是『小事』啊……',
             TxtCtl.Enter,
         ),
