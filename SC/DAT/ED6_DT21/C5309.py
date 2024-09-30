@@ -2534,7 +2534,7 @@ def func_0B_171D():
             TxtCtl.Enter,
             TxtCtl.Clear,
             '#0100410221V#178F认命吧，\n',
-            '《瘦狼》瓦鲁特……！',
+            '『瘦狼』瓦鲁特……！',
             TxtCtl.Enter,
         ),
     )
