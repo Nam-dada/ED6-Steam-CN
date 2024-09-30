@@ -139,7 +139,7 @@ entries = [
     Item2TableData(
         __index = 0x0000001B,
         name    = '麒麟具',
-        desc    = '【STR+500 RNG+1】\\n　用谜之金属精炼而成的神秘棍棒。绽放着金黄色的光芒。',
+        desc    = '【STR+480 RNG+1】\\n　用谜之金属精炼而成的神秘棍棒。绽放着金黄色的光芒。',
     ),
     Item2TableData(
         __index = 0x0000001C,
@@ -249,7 +249,7 @@ entries = [
     Item2TableData(
         __index = 0x00000031,
         name    = '凤凰剑（凤·凰）',
-        desc    = '【STR+500】\\n　用谜之金属精炼而成的神秘双剑。剑身绽放着金黄色光芒。',
+        desc    = '【STR+480】\\n　用谜之金属精炼而成的神秘双剑。剑身绽放着金黄色光芒。',
     ),
     Item2TableData(
         __index = 0x00000032,
@@ -399,7 +399,7 @@ entries = [
     Item2TableData(
         __index = 0x0000004F,
         name    = '天狼鞭',
-        desc    = '【STR+480 RNG+2 ATS+50 AGL+30 SPD+20】\\n　用谜之金属精炼而成的神秘长鞭，绽放着金黄色光芒。',
+        desc    = '【STR+480 RNG+2】\\n　用谜之金属精炼而成的神秘长鞭，绽放着金黄色光芒。',
     ),
     Item2TableData(
         __index = 0x00000050,
@@ -523,8 +523,8 @@ entries = [
     ),
     Item2TableData(
         __index = 0x00000068,
-        name    = '枪６奥利维尔',
-        desc    = '未使用',
+        name    = '灵枪「久远」',
+        desc    = '【STR+480 RNG+4】\\n　用谜之金属精炼而成的神秘枪，绽放着金黄色光芒。',
     ),
     Item2TableData(
         __index = 0x00000069,
@@ -668,8 +668,8 @@ entries = [
     ),
     Item2TableData(
         __index = 0x00000085,
-        name    = '刺剑6科洛丝',
-        desc    = ' ',
+        name    = '月读',
+        desc    = '【STR+480】\\n　用谜之金属精炼而成的神秘长剑，绽放着金黄色光芒。',
     ),
     Item2TableData(
         __index = 0x00000086,
@@ -849,7 +849,7 @@ entries = [
     Item2TableData(
         __index = 0x000000A9,
         name    = '奇剑「鬼灭之刃」',
-        desc    = '【STR+560 SPD+20】\\n　用谜之金属精炼而成的神秘大剑，绽放着金黄色光芒。',
+        desc    = '【STR+500】\\n　用谜之金属精炼而成的神秘大剑，绽放着金黄色光芒。',
     ),
     Item2TableData(
         __index = 0x000000AA,
@@ -964,7 +964,7 @@ entries = [
     Item2TableData(
         __index = 0x000000C0,
         name    = '九龙炮',
-        desc    = '【STR+530 RNG+3 SPD+20 范围：大圆】\\n　用谜之金属精炼而成的神秘导力炮，绽放着金黄色光芒。',
+        desc    = '【STR+500 RNG+3 范围：大圆】\\n　用谜之金属精炼而成的神秘导力炮，绽放着金黄色光芒。',
     ),
     Item2TableData(
         __index = 0x000000C1,
@@ -1109,7 +1109,7 @@ entries = [
     Item2TableData(
         __index = 0x000000DD,
         name    = '千手观音',
-        desc    = '【STR+510 DEF+100 SPD+20】\\n　用谜之金属精炼而成的神秘护手，绽放着金黄色光芒。',
+        desc    = '【STR+510】\\n　用谜之金属精炼而成的神秘护手，绽放着金黄色光芒。',
     ),
     Item2TableData(
         __index = 0x000000DE,
@@ -1158,8 +1158,8 @@ entries = [
     ),
     Item2TableData(
         __index = 0x000000E7,
-        name    = ' ',
-        desc    = ' ',
+        name    = '破弓「绮罗星」',
+        desc    = '【STR+480 RNG+5】\\n　用谜之金属精炼而成的神秘弓，绽放着金黄色光芒。',
     ),
     Item2TableData(
         __index = 0x000000E8,
